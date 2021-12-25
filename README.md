@@ -17,6 +17,9 @@
 ## About <a name = "about"></a>
 
 A Momentum clone made with Next.JS and Typescript.
+Originally a
+[vanilla Javascript project](https://github.com/librity/nc_nomentum)
+with less features.
 
 - Production App: https://impetus.vercel.app/
 
@@ -30,13 +33,13 @@ I'm committed to online privacy and anonymity, and this app will:
 
 ## Features <a name = "features"></a>
 
-- [ ] NO TRACKING EVER!!!
-  - [ ] Serve roboto font
-- [ ] Clock
+- [x] NO TRACKING EVER!!!
+  - [x] Serve Roboto font
+- [x] Clock
 - [ ] Greeting
   - [ ] Updates with time
 - [ ] Landscape background
-  - [ ] Random landscape from unsplash
+  - [x] Random landscape from unsplash
   - [ ] Change landscape every x minutes with transition
 - [ ] Tasks
   - [ ] Add task
@@ -103,19 +106,17 @@ This project is [MIT licensed](LICENSE).
 
 ## Packages <a name = "packages"></a>
 
-- https://github.com/remy/nodemon/
-- https://github.com/babel/babel
-- https://github.com/expressjs/express
+- https://github.com/vercel/swr
 
 ## Docs <a name = "docs"></a>
 
-- https://babeljs.io/docs/en/
-- https://expressjs.com/en/guide/routing.html
+- https://swr.vercel.app/docs/data-fetching
 
 ### Next.JS
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Learn Next.js](https://nextjs.org/learn)
+  - https://github.com/vercel/next-learn
 - [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 
 ## Resources <a name = "resources"></a>
@@ -126,17 +127,15 @@ This project is [MIT licensed](LICENSE).
 
 ### Javascript
 
-- https://codeforgeek.com/render-html-file-expressjs/
 - https://stackoverflow.com/questions/18621612/find-and-remove-element-from-array
 - https://www.delftstack.com/howto/javascript/javascript-float-to-int/
 - https://stackoverflow.com/questions/2696692/setinterval-vs-settimeout
 - https://stackoverflow.com/questions/55362152/how-to-open-a-new-tab-in-javascript
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString
 
-### Fetch Request
+### ReactJS
 
-- https://stackoverflow.com/questions/247483/http-get-request-in-javascript
-- https://gist.github.com/msmfsd/fca50ab095b795eb39739e8c4357a808
-- https://fetch.spec.whatwg.org/
+- https://medium.com/programming-essentials/how-to-create-a-digital-clock-with-react-hooks-aa30f76cfe3f
 
 ### Quotes API
 
@@ -171,3 +170,4 @@ This project is [MIT licensed](LICENSE).
 - https://www.w3schools.com/cssref/sel_focus.asp
 - https://marksheet.io/css-priority.html
 - https://www.w3schools.com/csS/css_overflow.asp
+- https://developer.mozilla.org/en-US/docs/Web/CSS/@import

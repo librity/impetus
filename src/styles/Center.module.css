@@ -8,6 +8,20 @@
   height: 30vh;
 }
 
+.center_input {
+  padding: 0.5rem;
+  padding-left: 1rem;
+
+  background: #e6e6e626;
+
+  border: none;
+  border-bottom: 2px #ffffff33 solid;
+  border-radius: 1rem;
+
+  font-size: 2rem;
+  color: #ffffff;
+}
+
 .clock_greeting {
   display: flex;
   align-items: center;

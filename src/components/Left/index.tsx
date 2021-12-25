@@ -1,19 +1,21 @@
+import styles from '@/styles/Left.module.css'
+
 export const Left = () => {
   return (
-    <section className="left">
-      <div className="search_container">
+    <section className={styles.left}>
+      <div className={styles.search_container}>
         <label htmlFor="search_input">
           <img
-            className="search_icon"
+            className={styles.search_icon}
             id="search_icon"
-            src="/images/search_icon.png"
+            src="/icons/search_icon.png"
             alt="Search the internet"
           />
         </label>
 
-        <form className="search_form" id="search_form">
+        <form className={styles.search_form} id="search_form">
           <input
-            className="search_input"
+            className={styles.search_input}
             id="search_input"
             placeholder="Search the internet"
             type="text"

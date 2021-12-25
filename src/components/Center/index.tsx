@@ -1,16 +1,18 @@
 import Clock from './Clock'
 
+import styles from '@/styles/Center.module.css'
+
 export const Center = () => {
   return (
-    <section className="center">
-      <div className="center_anchor"></div>
+    <section className={styles.center}>
+      <div className={styles.center_anchor}></div>
 
-      <div className="clock_greeting">
+      <div className={styles.clock_greeting}>
         <Clock />
 
-        <form className="hidden">
+        <form className={styles.hidden}>
           <input
-            className="floating"
+            className={styles.center_input}
             placeholder="What's your name?"
             type="text"
             required
@@ -18,24 +20,24 @@ export const Center = () => {
           />
         </form>
 
-        <h1 className="greeting"></h1>
+        <h1 className={styles.greeting}></h1>
       </div>
 
-      <div className="todo_quote">
-        <div className="todo_container">
-          <form className="todo">
+      <div className={styles.todo_quote}>
+        <div className={styles.todo_container}>
+          <form className={styles.todo}>
             <input
-              className="floating"
+              className={styles.center_input}
               type="text"
               placeholder="Type a task here"
               required
             />
           </form>
 
-          <ul className="todo_list"></ul>
+          <ul className={styles.todo_list}></ul>
         </div>
 
-        <div className="quote">
+        <div className={styles.quote}>
           <div></div>
         </div>
       </div>

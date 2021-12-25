@@ -1,7 +1,7 @@
 # Impetus - A Momentum clone
 
 <p align="center">
-  <img src=".github/demo.png">
+  <img src="https://impetus.vercel.app/preview.png">
 </p>
 
 ## Table of Contents
@@ -16,17 +16,17 @@
 
 ## About <a name = "about"></a>
 
-A Momentum clone with Next.JS
+A Momentum clone made with Next.JS and Typescript.
 
-- Production App:
+- Production App: https://impetus.vercel.app/
 
 I personally use this
 and will be adding more useful features in the near future.
 I'm committed to online privacy and anonymity, and this app will:
 
-- never save any personal data
-- never use or save cookies
-- never use any resources that push trackers (like google fonts)
+- Never save any personal data.
+- Never use or save cookies.
+- Never use any resources that push trackers (like google fonts).
 
 ## Features <a name = "features"></a>
 

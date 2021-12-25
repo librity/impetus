@@ -4,8 +4,9 @@ const Twitter = () => {
       <meta property="twitter:card" content="summary_large_image" />
       <meta
         property="twitter:url"
-        content="https://create-react-mine.vercel.app/"
+        content="https://impetus.vercel.app/"
       />
+      <meta property="twitter:domain" content="impetus.vercel.app" />
       <meta property="twitter:title" content="Impetus" />
       <meta
         property="twitter:description"
@@ -15,10 +16,6 @@ const Twitter = () => {
         property="twitter:image"
         content="https://impetus.vercel.app/preview.png"
       />
-      <meta property="og:locale" content="en_US" />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://impetus.vercel.app/" />
-      <meta property="og:site_name" content="Impetus" />
     </>
   )
 }

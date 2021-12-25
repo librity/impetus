@@ -7,7 +7,6 @@
   }
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -21,12 +20,6 @@
 
 html {
   background: #333333;
-}
-
-html,
-body,
-#root {
-  height: 100%;
 }
 
 body {
@@ -75,7 +68,7 @@ button {
   display: none;
 }
 
-input.floating {
+.floating {
   padding: 0.5rem;
   padding-left: 1rem;
 

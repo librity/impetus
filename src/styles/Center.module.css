@@ -18,7 +18,7 @@
   font-size: 10rem;
 }
 
-#greeting {
+.greeting {
   font-size: 5rem;
 }
 
@@ -35,7 +35,7 @@
   margin-top: 1rem;
 }
 
-form.todo {
+.todo {
   display: flex;
   justify-content: space-around;
 
@@ -48,7 +48,7 @@ form.todo {
   overflow: auto;
 }
 
-li.task {
+.task {
   width: fit-content;
 
   margin-bottom: 0.25rem;
@@ -60,7 +60,7 @@ li.task {
   font-size: 1.5rem;
 }
 
-button.delete_task {
+.delete_task {
   background: none;
   border: none;
 

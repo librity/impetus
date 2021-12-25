@@ -1,25 +1,28 @@
-import React, { useContext } from 'react'
-
-import Block from '@/interfaces/Block'
-
-import { BlockchainContext } from '@/contexts/BlockchainContext'
-
-import { MinedBlock } from './MinedBlock'
-
-export const MinedBlocks = () => {
-  const { chain } = useContext(BlockchainContext)
-
+export const Left = () => {
   return (
-    <section className="flex items-center flex-col bg-gray-200 min-h-screen pb-20">
-      <h3 className="text-xl uppercase bg-white -mt-8 inline shadow-lg font-medium py-3 px-10 rounded-md">
-        Mined Blocks
-      </h3>
+    <section className="left">
+      <div className="search_container">
+        <label htmlFor="search_input">
+          <img
+            className="search_icon"
+            id="search_icon"
+            src="/images/search_icon.png"
+            alt="Search the internet"
+          />
+        </label>
 
-      <div className="grid grid-cols-3 w-full mt-20 gap-20 px-20">
-        {chain.map((block: Block) => (
-          <MinedBlock block={block} key={block.hash} />
-        ))}
+        <form className="search_form" id="search_form">
+          <input
+            className="search_input"
+            id="search_input"
+            placeholder="Search the internet"
+            type="text"
+            required
+          />
+        </form>
       </div>
     </section>
   )
 }
+
+export default Left

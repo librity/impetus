@@ -1,25 +1,46 @@
-import React, { useContext } from 'react'
+import Clock from './Clock'
 
-import Block from '@/interfaces/Block'
-
-import { BlockchainContext } from '@/contexts/BlockchainContext'
-
-import { MinedBlock } from './MinedBlock'
-
-export const MinedBlocks = () => {
-  const { chain } = useContext(BlockchainContext)
-
+export const Center = () => {
   return (
-    <section className="flex items-center flex-col bg-gray-200 min-h-screen pb-20">
-      <h3 className="text-xl uppercase bg-white -mt-8 inline shadow-lg font-medium py-3 px-10 rounded-md">
-        Mined Blocks
-      </h3>
+    <section className="center">
+      <div className="center_anchor"></div>
 
-      <div className="grid grid-cols-3 w-full mt-20 gap-20 px-20">
-        {chain.map((block: Block) => (
-          <MinedBlock block={block} key={block.hash} />
-        ))}
+      <div className="clock_greeting">
+        <Clock />
+
+        <form className="hidden">
+          <input
+            className="floating"
+            placeholder="What's your name?"
+            type="text"
+            required
+            maxLength={15}
+          />
+        </form>
+
+        <h1 className="greeting"></h1>
+      </div>
+
+      <div className="todo_quote">
+        <div className="todo_container">
+          <form className="todo">
+            <input
+              className="floating"
+              type="text"
+              placeholder="Type a task here"
+              required
+            />
+          </form>
+
+          <ul className="todo_list"></ul>
+        </div>
+
+        <div className="quote">
+          <div></div>
+        </div>
       </div>
     </section>
   )
 }
+
+export default Center

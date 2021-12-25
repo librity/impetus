@@ -1,17 +1,17 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-import OGTags from './tags/OGTags'
+import Default from './tags/Default'
+import OpenGraph from './tags/OpenGraph'
+import Twitter from './tags/Twitter'
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
-          <OGTags />
-          <meta
-            name="description"
-            content="A Momentum clone made with Next.JS and Typescript."
-          />
+          <Default />
+          <OpenGraph />
+          <Twitter />
 
           <link rel="icon" href="/favicon.ico" />
         </Head>

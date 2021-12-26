@@ -1,4 +1,4 @@
-import { fetcher } from '@/api/generic'
+import { fetchJson } from '@/api/generic'
 
 import { WeatherAPIRespI } from '@/interfaces/weather'
 
@@ -20,7 +20,7 @@ export const buildWeatherUrl = (position: GeolocationPosition) => {
 
 export const fetchWeather = async (weatherUrl: string) => {
   try {
-    const resp = await fetcher(weatherUrl)
+    const resp = await fetchJson(weatherUrl)
 
     return formatWeatherData(resp)
   } catch (error) {

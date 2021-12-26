@@ -41,7 +41,7 @@ I'm committed to online privacy and anonymity, and this app will:
 - [x] NO TRACKING EVER!!!
   - [x] Serve Roboto font
 - [x] Clock
-  - [ ] Basic clock
+  - [x] Basic clock
   - [ ] Custom timezone
 - [ ] Greeting
   - [ ] Updates with time
@@ -56,10 +56,10 @@ I'm committed to online privacy and anonymity, and this app will:
   - [ ] Move task
   - [ ] Autofocus top task
 - [ ] Weather
-  - [ ] Current weather with icon
+  - [x] Current weather with icon
   - [ ] Weather forecast on hover
 - [ ] Search bar
-  - [ ] DuckDuckGo
+  - [x] Search with DuckDuckGo
   - [ ] Select search site/engine
 - [ ] Website Shortcuts
   - [ ] Add shortcut

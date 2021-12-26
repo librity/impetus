@@ -1,4 +1,5 @@
 import Clock from './Clock'
+import Quote from './Quote'
 
 import styles from '@/styles/Center.module.css'
 
@@ -37,9 +38,7 @@ export const Center = () => {
           <ul className={styles.todo_list}></ul>
         </div>
 
-        <div className={styles.quote}>
-          <div></div>
-        </div>
+        <Quote />
       </div>
     </section>
   )

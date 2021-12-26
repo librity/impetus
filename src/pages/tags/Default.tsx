@@ -8,7 +8,7 @@ const Default = () => {
       />
       <meta
         name="image"
-        content="https://impetus.vercel.app/images/logo.png"
+        content="https://impetus.vercel.app/images/logo_wide.png"
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="theme-color" content="#4B7790" />

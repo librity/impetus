@@ -12,10 +12,10 @@ const OpenGraph = () => {
       />
       <meta
         property="og:image"
-        content="https://impetus.vercel.app/images/logo.png"
+        content="https://impetus.vercel.app/images/logo_wide.png"
       />
-      <meta property="og:image:width" content="1600" />
-      <meta property="og:image:height" content="1600" />
+      <meta property="og:image:width" content="1800" />
+      <meta property="og:image:height" content="1200" />
     </>
   )
 }

@@ -28,7 +28,7 @@ export const Quote = () => {
   return (
     <div className={styles.quote}>
       <div>
-        "{quote.content}" <br /> {quote.author}
+        &#34;{quote.content}&#34; <br /> {quote.author}
       </div>
     </div>
   )

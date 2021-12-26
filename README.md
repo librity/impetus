@@ -133,6 +133,8 @@ This project is [MIT licensed](LICENSE).
 - https://github.com/vercel/next.js/
 - https://github.com/vercel/swr
 - https://github.com/davidhu2000/react-spinners
+- https://github.com/donavon/use-persisted-state
+- https://github.com/garmeeh/next-seo
 
 ## Docs <a name = "docs"></a>
 
@@ -165,6 +167,8 @@ This project is [MIT licensed](LICENSE).
 - https://medium.com/programming-essentials/how-to-create-a-digital-clock-with-react-hooks-aa30f76cfe3f
 - https://sebhastian.com/react-submit-form/
 - https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events/
+- https://stackoverflow.com/questions/55370851/how-to-fix-binding-element-children-implicitly-has-an-any-type-ts7031
+- https://reactjs.org/docs/hooks-reference.html#usestate
 
 ### Next.JS
 
@@ -172,6 +176,8 @@ This project is [MIT licensed](LICENSE).
 - https://nextjs.org/docs/basic-features/image-optimization
 - https://nextjs.org/docs/messages/next-image-unconfigured-host
 - https://nextjs.org/docs/messages/react-hydration-error
+- https://stackoverflow.com/questions/63212462/localstorage-in-static-nextjs-site-referenceerror-localstorage-is-not-defined
+- https://stackoverflow.com/questions/57126760/nextjs-dynamic-title
 
 ### Quotes API
 

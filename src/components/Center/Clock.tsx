@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
 
-import styles from '@/styles/Center.module.css'
-
 import { getTime, ONE_SECOND } from '@/utils/time'
+import styles from '@/styles/Center.module.css'
 
 export const Clock = () => {
   const [time, setTime] = useState(getTime())

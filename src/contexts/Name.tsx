@@ -1,20 +1,28 @@
-import { createContext, useState, useEffect } from 'react'
+import { createContext } from 'react'
+import createPersistedState from 'use-persisted-state'
+
+const NAME_KEY = 'name'
+const useNameState = createPersistedState(NAME_KEY)
 
 interface NameCtxData {
-  name: string | undefined
-  setName: (data: string) => void
+  name: string | null | undefined
+  saveName: (newName: string) => void
 }
 
 export const NameCtx = createContext({} as NameCtxData)
 
-export const NameProvider = ({ children, ...rest }) => {
-  const [name, setName] = useState<string | undefined>()
+export const NameProvider: React.FC<{}> = ({ children, ..._rest }) => {
+  const [name, setName] = useNameState<string | null>()
+
+  const saveName = (newName: string) => {
+    setName(newName)
+  }
 
   return (
     <NameCtx.Provider
       value={{
         name,
-        setName,
+        saveName,
       }}
     >
       {children}

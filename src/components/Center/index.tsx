@@ -1,4 +1,5 @@
 import Clock from './Clock'
+import Greeting from './Greeting'
 import Quote from './Quote'
 
 import styles from '@/styles/Center.module.css'
@@ -11,17 +12,7 @@ export const Center = () => {
       <div className={styles.clock_greeting}>
         <Clock />
 
-        <form className={styles.hidden}>
-          <input
-            className={styles.center_input}
-            placeholder="What's your name?"
-            type="text"
-            required
-            maxLength={15}
-          />
-        </form>
-
-        <h1 className={styles.greeting}></h1>
+        <Greeting />
       </div>
 
       <div className={styles.todo_quote}>

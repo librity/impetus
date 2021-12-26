@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react'
 import BarLoader from 'react-spinners/PuffLoader'
 
-import styles from '@/styles/Center.module.css'
-
 import { fetchRandomQuote } from '@/api/quotes'
 import { QuoteI } from '@/interfaces/quote'
+import styles from '@/styles/Center.module.css'
 
 export const Quote = () => {
   const [quote, setQuote] = useState<QuoteI>()

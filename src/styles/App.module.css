@@ -2,4 +2,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('https://source.unsplash.com/random/1920x1080/?landscape');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }

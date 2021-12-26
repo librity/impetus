@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Head>
-        <title>Impetus</title>
+        <title>Impetus.</title>
       </Head>
 
       <main className={styles.main}>

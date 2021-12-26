@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
           <OpenGraph />
           <Twitter />
 
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/icons/favicon.svg" />
         </Head>
 
         <body>

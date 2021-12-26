@@ -1,7 +1,7 @@
-# Impetus - A Momentum clone
+# Impetus.
 
 <p align="center">
-  <img src="https://impetus.vercel.app/preview.png">
+  <img src="https://impetus.vercel.app/images/preview.png">
 </p>
 
 ## Table of Contents
@@ -16,12 +16,15 @@
 
 ## About <a name = "about"></a>
 
-A Momentum clone made with Next.JS and Typescript.
+A
+[Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
+clone made with Next.JS and Typescript.
 Originally a
 [vanilla Javascript project](https://github.com/librity/nc_nomentum)
 with less features.
 
 - Production App: https://impetus.vercel.app/
+- [Figma](https://www.figma.com/file/V1hogXfkoiKoYbsaVyNJlC/Impetus?node-id=3%3A14)
 
 I personally use this
 and will be adding more useful features in the near future.
@@ -36,6 +39,8 @@ I'm committed to online privacy and anonymity, and this app will:
 - [x] NO TRACKING EVER!!!
   - [x] Serve Roboto font
 - [x] Clock
+  - [ ] Basic clock
+  - [ ] Custom timezone
 - [ ] Greeting
   - [ ] Updates with time
 - [ ] Landscape background
@@ -47,17 +52,18 @@ I'm committed to online privacy and anonymity, and this app will:
   - [ ] Delete task
   - [ ] Edit tasks
   - [ ] Move task
+  - [ ] Autofocus top task
 - [ ] Weather
   - [ ] Current weather with icon
   - [ ] Weather forecast on hover
 - [ ] Search bar
   - [ ] DuckDuckGo
   - [ ] Select search site/engine
-- [ ] Quick links toolbar
-  - [ ] Add link
-  - [ ] Save links to local storage
-  - [ ] Edit link
-  - [ ] Delete link
+- [ ] Website Shortcuts
+  - [ ] Add shortcut
+  - [ ] Save shortcuts to local storage
+  - [ ] Edit shortcut
+  - [ ] Delete shortcut
 - [ ] Crypto toolbar
   - [ ] Add coins of interest
   - [ ] Show price and change
@@ -67,6 +73,15 @@ I'm committed to online privacy and anonymity, and this app will:
   - [ ] Load local storage configs from file
 - [ ] Timer
   - [ ] Rings when it's done
+- [ ] Add/Remove features menu
+- [ ] Soundscapes
+- [ ] Pomodoro timer
+- [ ] Notes
+  - [ ] Add note
+  - [ ] Save notes to local storage
+  - [ ] Delete note
+  - [ ] Edit notes
+  - [ ] Move note
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -92,12 +107,18 @@ $ npm run dev
 
 3. Open http://localhost:3000 with your web browser.
 
-#### Format
+#### Lint & Format
 
 Format all source files with Prettier:
 
 ```bash
 $ npm run format
+```
+
+Run ESLint:
+
+```bash
+$ npm run lint
 ```
 
 ## License <a name = "license"></a>
@@ -137,6 +158,11 @@ This project is [MIT licensed](LICENSE).
 
 - https://medium.com/programming-essentials/how-to-create-a-digital-clock-with-react-hooks-aa30f76cfe3f
 
+### Next.JS
+
+- https://www.peterlunch.com/snippets/next-image-styling
+- https://nextjs.org/docs/basic-features/image-optimization
+
 ### Quotes API
 
 - https://github.com/lukePeavey/quotable
@@ -171,3 +197,19 @@ This project is [MIT licensed](LICENSE).
 - https://marksheet.io/css-priority.html
 - https://www.w3schools.com/csS/css_overflow.asp
 - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
+
+### Meta Tags
+
+- https://opengraph.dev/
+- https://metatags.io/
+- https://www.linkedin.com/post-inspector/inspect
+- https://www.linkedin.com/pulse/how-clear-linkedin-link-preview-cache-ananda-kannan-p/
+- https://stackoverflow.com/questions/10042786/how-to-successfully-implement-ogimage-for-the-linkedin
+- https://kinsta.com/blog/linkedin-debugger/
+- https://ahrefs.com/blog/open-graph-meta-tags/
+- https://stackoverflow.com/questions/54266598/meta-tags-for-url-with-description-and-image-in-skype-discord
+
+### Logo
+
+- https://grahamhancock.com/kollerstromn2/
+- https://fonts.google.com/specimen/Cormorant+Garamond

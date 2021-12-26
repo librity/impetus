@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import styles from '@/styles/Right.module.css'
 
 const Right = () => {
@@ -9,7 +11,7 @@ const Right = () => {
         className={styles.weather_container}
         id="weather_container"
       >
-        <img src="" alt="" id="weather_icon" />
+        {/* <Image src={""} alt="" id="weather_icon" /> */}
 
         <div className={styles.weather_details}>
           <span id="weather_temp"></span>

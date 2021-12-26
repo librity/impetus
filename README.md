@@ -1,12 +1,6 @@
 <p align="center">
   <a href="https://impetus.vercel.app" target="_blank">
-    <img src="https://impetus.vercel.app/images/logo.svg">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://impetus.vercel.app" target="_blank">
-    <img src=".github/preview.png">
+    <img height="300" src="https://impetus.vercel.app/images/logo_v30.svg">
   </a>
 </p>
 
@@ -39,6 +33,12 @@ I'm committed to online privacy and anonymity, and this app will:
 - Never save any personal data.
 - Never use or save cookies.
 - Never use any resources that push trackers (like google fonts).
+
+<p align="center">
+  <a href="https://impetus.vercel.app" target="_blank">
+    <img src=".github/preview.png">
+  </a>
+</p>
 
 ## Features <a name = "features"></a>
 

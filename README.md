@@ -129,11 +129,15 @@ This project is [MIT licensed](LICENSE).
 
 ## Packages <a name = "packages"></a>
 
+- https://github.com/Microsoft/TypeScript
+- https://github.com/vercel/next.js/
 - https://github.com/vercel/swr
+- https://github.com/davidhu2000/react-spinners
 
 ## Docs <a name = "docs"></a>
 
 - https://swr.vercel.app/docs/data-fetching
+- https://www.davidhu.io/react-spinners/
 
 ### Next.JS
 
@@ -166,6 +170,8 @@ This project is [MIT licensed](LICENSE).
 
 - https://www.peterlunch.com/snippets/next-image-styling
 - https://nextjs.org/docs/basic-features/image-optimization
+- https://nextjs.org/docs/messages/next-image-unconfigured-host
+- https://nextjs.org/docs/messages/react-hydration-error
 
 ### Quotes API
 

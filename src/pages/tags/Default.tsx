@@ -11,7 +11,7 @@ const Default = () => {
         content="https://impetus.vercel.app/images/logo_wide.png"
       />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="theme-color" content="#4B7790" />
+      <meta name="theme-color" content="#63D5F9" />
       <meta name="author" content="@librity" />
     </>
   )

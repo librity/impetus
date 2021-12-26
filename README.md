@@ -1,7 +1,9 @@
-# Impetus.
+<p align="center">
+  <img src="https://impetus.vercel.app/images/logo.svg">
+</p>
 
 <p align="center">
-  <img src="https://impetus.vercel.app/images/preview.png">
+  <img src=".github/preview.png">
 </p>
 
 ## Table of Contents
@@ -157,6 +159,8 @@ This project is [MIT licensed](LICENSE).
 ### ReactJS
 
 - https://medium.com/programming-essentials/how-to-create-a-digital-clock-with-react-hooks-aa30f76cfe3f
+- https://sebhastian.com/react-submit-form/
+- https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events/
 
 ### Next.JS
 

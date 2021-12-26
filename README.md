@@ -1,9 +1,13 @@
 <p align="center">
-  <img src="https://impetus.vercel.app/images/logo.svg">
+  <a href="https://impetus.vercel.app" target="_blank">
+    <img src="https://impetus.vercel.app/images/logo.svg">
+  </a>
 </p>
 
 <p align="center">
-  <img src=".github/preview.png">
+  <a href="https://impetus.vercel.app" target="_blank">
+    <img src=".github/preview.png">
+  </a>
 </p>
 
 ## Table of Contents
@@ -40,6 +44,7 @@ I'm committed to online privacy and anonymity, and this app will:
 
 - [x] NO TRACKING EVER!!!
   - [x] Serve Roboto font
+- [x] Custom scrollbar
 - [x] Clock
   - [x] Basic clock
   - [ ] Custom timezone
@@ -214,6 +219,7 @@ This project is [MIT licensed](LICENSE).
 - https://marksheet.io/css-priority.html
 - https://www.w3schools.com/csS/css_overflow.asp
 - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
+- https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 
 ### Meta Tags
 

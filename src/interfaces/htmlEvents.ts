@@ -1,5 +1,5 @@
-import { FormEventHandler } from 'react'
+import { ChangeEventHandler, FormEventHandler } from 'react'
 
-export interface InputChangeEvent extends React.ChangeEvent<HTMLInputElement> {}
+export interface InputChange extends ChangeEventHandler<HTMLInputElement> {}
 
 export interface FormSubmit extends FormEventHandler<HTMLFormElement> {}

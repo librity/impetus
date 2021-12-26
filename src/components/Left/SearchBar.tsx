@@ -2,19 +2,19 @@ import { useState } from 'react'
 import Image from 'next/image'
 
 import searchIcon from '@/public/icons/search_icon.png'
-import { InputChangeEvent, FormSubmit } from '@/interfaces/htmlEvents'
+import { InputChange, FormSubmit } from '@/interfaces/htmlEvents'
 import { buildDuckSearchUrl } from '@/utils/duckduckgo'
 import styles from '@/styles/Left.module.css'
 
 export const SearchBar = () => {
   const [search, setSearch] = useState('')
 
-  const handleSearchChange = (e: InputChangeEvent) => {
-    setSearch(e.target.value)
+  const handleSearchChange: InputChange = event => {
+    setSearch(event.target.value)
   }
 
-  const handleSearch: FormSubmit = e => {
-    e.preventDefault()
+  const handleSearch: FormSubmit = event => {
+    event.preventDefault()
 
     window.open(buildDuckSearchUrl(search), '_blank')
 

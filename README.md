@@ -43,15 +43,15 @@ I'm committed to online privacy and anonymity, and this app will:
 - [x] Clock
   - [x] Basic clock
   - [ ] Custom timezone
-- [ ] Greeting
-  - [ ] Updates with time
+- [x] Greeting
+  - [x] Updates with time
 - [ ] Landscape background
   - [x] Random landscape from unsplash
   - [ ] Change landscape every x minutes with transition
 - [ ] Tasks
-  - [ ] Add task
-  - [ ] Save tasks to local storage
-  - [ ] Delete task
+  - [x] Add task
+  - [x] Save tasks to local storage
+  - [x] Delete task
   - [ ] Edit tasks
   - [ ] Move task
   - [ ] Autofocus top task
@@ -69,6 +69,7 @@ I'm committed to online privacy and anonymity, and this app will:
 - [ ] Crypto toolbar
   - [ ] Add coins of interest
   - [ ] Show price and change
+  - [ ] Show price charts
   - [ ] Remove coins
 - [ ] Manual session backups
   - [ ] Export local storage configs to file

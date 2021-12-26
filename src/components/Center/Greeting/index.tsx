@@ -2,7 +2,7 @@ import { useContext, useState } from 'react'
 
 import { NameCtx } from '@/contexts/Name'
 import DynamicGreeting from './DynamicGreeting'
-import { InputChangeEvent, FormSubmit } from '@/interfaces/htmlEvents'
+import { InputChange, FormSubmit } from '@/interfaces/htmlEvents'
 import styles from '@/styles/Center.module.css'
 
 export const Greeting = () => {
@@ -10,12 +10,12 @@ export const Greeting = () => {
 
   const [nameInput, setNameInput] = useState('')
 
-  const handleNameChange = (e: InputChangeEvent) => {
-    setNameInput(e.target.value)
+  const handleNameChange: InputChange = event => {
+    setNameInput(event.target.value)
   }
 
-  const handleNameSave: FormSubmit = e => {
-    e.preventDefault()
+  const handleNameSave: FormSubmit = event => {
+    event.preventDefault()
 
     saveName(nameInput)
   }
@@ -27,7 +27,7 @@ export const Greeting = () => {
           className={styles.center_input}
           onChange={handleNameChange}
           value={nameInput}
-          placeholder="What is your name?"
+          placeholder="What's your name?"
           type="text"
           required
           maxLength={15}

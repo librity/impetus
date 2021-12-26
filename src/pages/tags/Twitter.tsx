@@ -11,7 +11,7 @@ const Twitter = () => {
       />
       <meta
         property="twitter:image"
-        content="https://impetus.vercel.app/images/logo.svg"
+        content="https://impetus.vercel.app/images/logo.png"
       />
     </>
   )

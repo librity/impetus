@@ -61,6 +61,7 @@ I'm committed to online privacy and anonymity, and this app will:
 
 - [x] NO TRACKING EVER!!!
   - [x] Serve Roboto font
+  - [ ] Disable Vercel analytics (no vitals request)
 - [x] Custom scrollbar
 - [x] Source code link
 - [x] Clock

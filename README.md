@@ -1,10 +1,27 @@
 <p align="center">
   <a href="https://impetus.vercel.app" target="_blank">
-    <img height="300" src="https://impetus.vercel.app/images/logo_v30.svg">
+    <img height="300" src=".github/logo_clear.svg">
   </a>
 </p>
 
-## Table of Contents
+<div align="center">
+
+![Deploy Status](https://img.shields.io/github/deployments/librity/impetus/production?label=Vercel&logo=vercel&logoColor=white)
+![License](https://img.shields.io/github/license/librity/impetus?color=yellow)
+![Code size in bytes](https://img.shields.io/github/languages/code-size/librity/impetus?color=blue)
+![Lines of code](https://img.shields.io/tokei/lines/github/librity/impetus?color=blueviolet)
+![Top language](https://img.shields.io/github/languages/top/librity/impetus?color=ff69b4)
+![Last commit](https://img.shields.io/github/last-commit/librity/impetus?color=orange)
+
+</div>
+
+<p align="center"> Your life is now.
+  <br>
+</p>
+
+---
+
+## 📜 Table of Contents
 
 - [About](#about)
 - [Features](#features)
@@ -14,7 +31,7 @@
 - [Docs](#docs)
 - [Resources](#resources)
 
-## About <a name = "about"></a>
+## 🧐 About <a name = "about"></a>
 
 A
 [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
@@ -40,7 +57,7 @@ I'm committed to online privacy and anonymity, and this app will:
   </a>
 </p>
 
-## Features <a name = "features"></a>
+## ✅ Features <a name = "features"></a>
 
 - [x] NO TRACKING EVER!!!
   - [x] Serve Roboto font
@@ -91,13 +108,13 @@ I'm committed to online privacy and anonymity, and this app will:
   - [ ] Edit notes
   - [ ] Move note
 
-## Getting Started <a name = "getting_started"></a>
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-### Prerequisites
+### ⚙️ Prerequisites
 
 - `node >= 16.13.0`
 
-### Installation
+### 🖥️ Installation
 
 1. Clone this repo locally and install the required packages:
 
@@ -115,7 +132,7 @@ $ npm run dev
 
 3. Open http://localhost:3000 with your web browser.
 
-#### Lint & Format
+#### 🧼 Lint & Format
 
 Format all source files with Prettier:
 
@@ -129,11 +146,11 @@ Run ESLint:
 $ npm run lint
 ```
 
-## License <a name = "license"></a>
+## ⚖️ License <a name = "license"></a>
 
 This project is [MIT licensed](LICENSE).
 
-## Packages <a name = "packages"></a>
+## 📦 Packages <a name = "packages"></a>
 
 - https://github.com/Microsoft/TypeScript
 - https://github.com/vercel/next.js/
@@ -142,7 +159,7 @@ This project is [MIT licensed](LICENSE).
 - https://github.com/donavon/use-persisted-state
 - https://github.com/garmeeh/next-seo
 
-## Docs <a name = "docs"></a>
+## 📚 Docs <a name = "docs"></a>
 
 - https://swr.vercel.app/docs/data-fetching
 - https://www.davidhu.io/react-spinners/
@@ -154,7 +171,7 @@ This project is [MIT licensed](LICENSE).
   - https://github.com/vercel/next-learn
 - [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 
-## Resources <a name = "resources"></a>
+## 🔗 Resources <a name = "resources"></a>
 
 - https://fonts.google.com/specimen/Roboto
 - https://github.com/alvarotrigo/fullpage.js
@@ -236,3 +253,9 @@ This project is [MIT licensed](LICENSE).
 
 - https://grahamhancock.com/kollerstromn2/
 - https://fonts.google.com/specimen/Cormorant+Garamond
+
+### Vercel Badge
+
+- https://github.com/vercel/vercel/discussions/4824
+- https://shields.io/category/other
+- https://github.com/therealsujitk/vercel-badge

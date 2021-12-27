@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![Deploy Status](https://img.shields.io/github/deployments/librity/impetus/production?label=Vercel&logo=vercel&logoColor=white)
+![Deploy Status](https://img.shields.io/github/deployments/librity/impetus/Production?label=Vercel&logo=vercel&logoColor=white)
 ![License](https://img.shields.io/github/license/librity/impetus?color=yellow)
 ![Code size in bytes](https://img.shields.io/github/languages/code-size/librity/impetus?color=blue)
 ![Lines of code](https://img.shields.io/tokei/lines/github/librity/impetus?color=blueviolet)

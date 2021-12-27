@@ -72,10 +72,10 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #dddddd;
+  background: #dddddd88;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #bbbbbb;
+  background: #ddddddcc;
 }

@@ -15,7 +15,7 @@
 
 </div>
 
-<p align="center"> Your life is now.
+<p align="center"> An elegant dashboard for your goals.
   <br>
 </p>
 
@@ -62,25 +62,26 @@ I'm committed to online privacy and anonymity, and this app will:
 - [x] NO TRACKING EVER!!!
   - [x] Serve Roboto font
 - [x] Custom scrollbar
+- [x] Source code link
 - [x] Clock
   - [x] Basic clock
   - [ ] Custom timezone
 - [x] Greeting
   - [x] Updates with time
-- [ ] Landscape background
+- [x] Landscape background
   - [x] Random landscape from unsplash
   - [ ] Change landscape every x minutes with transition
-- [ ] Tasks
+- [x] Tasks
   - [x] Add task
   - [x] Save tasks to local storage
   - [x] Delete task
   - [ ] Edit tasks
   - [ ] Move task
   - [ ] Autofocus top task
-- [ ] Weather
+- [x] Weather
   - [x] Current weather with icon
   - [ ] Weather forecast on hover
-- [ ] Search bar
+- [x] Search bar
   - [x] Search with DuckDuckGo
   - [ ] Select search site/engine
 - [ ] Website Shortcuts

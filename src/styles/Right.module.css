@@ -1,4 +1,8 @@
 .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   width: 20vw;
 }
 
@@ -22,4 +26,22 @@
   align-items: flex-start;
 
   font-size: 1.5rem;
+}
+
+.github_link {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.github_container {
+  opacity: 50%;
+
+  transition: 0.3s;
+}
+
+.github_container:hover {
+  opacity: 100%;
 }

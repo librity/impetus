@@ -9,6 +9,7 @@ export const Github = () => {
       className={styles.github_link}
       href="https://github.com/librity/impetus"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <span className={styles.github_container}>
         <Image src={githubIcon} alt="" width={36} height={36} />

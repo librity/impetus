@@ -7,7 +7,7 @@
   height: 100vh;
   overflow: hidden;
 
-  background-image: url('https://source.unsplash.com/random/1920x1080/?landscape');
+  /* background-image: url('https://source.unsplash.com/random/1920x1080/?landscape'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;

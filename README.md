@@ -70,7 +70,7 @@ I'm committed to online privacy and anonymity, and this app will:
   - [x] Updates with time
 - [x] Landscape background
   - [x] Random landscape from unsplash
-  - [ ] Change landscape every x minutes with transition
+  - [x] Change landscape every x minutes
 - [x] Tasks
   - [x] Add task
   - [x] Save tasks to local storage
@@ -238,6 +238,7 @@ This project is [MIT licensed](LICENSE).
 - https://www.w3schools.com/csS/css_overflow.asp
 - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
 - https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+- https://www.w3schools.com/howto/howto_css_transition_hover.asp
 
 ### Meta Tags
 

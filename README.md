@@ -70,7 +70,7 @@ I'm committed to online privacy and anonymity, and this app will:
   - [x] Updates with time
 - [x] Landscape background
   - [x] Random landscape from unsplash
-  - [x] Change landscape every x minutes
+  - [x] Change landscape every hour
 - [x] Tasks
   - [x] Add task
   - [x] Save tasks to local storage
@@ -159,11 +159,13 @@ This project is [MIT licensed](LICENSE).
 - https://github.com/davidhu2000/react-spinners
 - https://github.com/donavon/use-persisted-state
 - https://github.com/garmeeh/next-seo
+- https://github.com/twbs/icons
 
 ## 📚 Docs <a name = "docs"></a>
 
 - https://swr.vercel.app/docs/data-fetching
 - https://www.davidhu.io/react-spinners/
+- https://react-icons.github.io/react-icons/
 
 ### Next.JS
 
@@ -177,6 +179,7 @@ This project is [MIT licensed](LICENSE).
 - https://fonts.google.com/specimen/Roboto
 - https://github.com/alvarotrigo/fullpage.js
 - https://github.com/serranoarevalo/momonton
+- https://stackoverflow.com/questions/3191664/list-of-all-locales-and-their-short-codes
 
 ### Javascript
 
@@ -185,6 +188,7 @@ This project is [MIT licensed](LICENSE).
 - https://stackoverflow.com/questions/2696692/setinterval-vs-settimeout
 - https://stackoverflow.com/questions/55362152/how-to-open-a-new-tab-in-javascript
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString
+- https://www.w3schools.com/js/js_string_search.asp
 
 ### ReactJS
 
@@ -193,6 +197,7 @@ This project is [MIT licensed](LICENSE).
 - https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events/
 - https://stackoverflow.com/questions/55370851/how-to-fix-binding-element-children-implicitly-has-an-any-type-ts7031
 - https://reactjs.org/docs/hooks-reference.html#usestate
+- https://www.kindacode.com/article/how-to-create-a-filter-search-list-in-react/
 
 ### Next.JS
 
@@ -220,6 +225,7 @@ This project is [MIT licensed](LICENSE).
 
 ### CSS
 
+- https://flexboxfroggy.com/
 - https://www.w3schools.com/cssref/func_linear-gradient.asp
 - https://www.w3schools.com/cssref/pr_background-image.asp
 - https://developer.mozilla.org/en-US/docs/Web/CSS/background-image

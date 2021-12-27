@@ -1,4 +1,8 @@
 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   width: 20vw;
 }
 
@@ -29,11 +33,11 @@
   padding: 0.5rem;
   padding-left: 1rem;
 
-  background: #e6e6e626;
-
   border: none;
   border-bottom: 2px #ffffff33 solid;
   border-radius: 1rem;
+
+  background: #e6e6e626;
 
   color: #ffffff;
   font-size: 1.25rem;
@@ -42,4 +46,57 @@
 .search_container:hover .search_input {
   transition: 0.5s;
   left: 0;
+}
+
+.locale_container {
+  width: 10vw;
+
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+
+  opacity: 0%;
+  transition: 0.3s;
+}
+
+.locale_container:hover {
+  opacity: 100%;
+}
+
+.locale_list {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: row;
+
+  margin-bottom: 0.5rem;
+
+  max-height: 20vh;
+  overflow: hidden;
+}
+
+.locale_button {
+  margin-top: 0.25rem;
+
+  border: none;
+  border-radius: 0.2rem;
+
+  background: #e6e6e626;
+
+  color: #dddddd;
+  font-size: 1.2rem;
+}
+
+.locale_input {
+  padding: 0.5rem;
+  padding-left: 1rem;
+
+  width: 10vw;
+
+  border: none;
+  border-bottom: 2px #ffffff33 solid;
+  border-radius: 1rem;
+
+  background: #e6e6e626;
+
+  color: #ffffff;
+  font-size: 1.25rem;
 }

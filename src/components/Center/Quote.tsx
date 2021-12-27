@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import BarLoader from 'react-spinners/PuffLoader'
+import BarLoader from 'react-spinners/BarLoader'
 
 import { fetchRandomQuote } from '@/api/quotes'
 import { QuoteI } from '@/interfaces/quote'
@@ -21,7 +21,7 @@ export const Quote = () => {
   if (!quote)
     return (
       <div className={styles.quote}>
-        <BarLoader color="#FFFFFF" size={80} />
+        <BarLoader color="#FFFFFF" />
       </div>
     )
 

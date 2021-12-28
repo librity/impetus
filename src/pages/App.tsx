@@ -1,4 +1,4 @@
-import { NameProvider } from '@/contexts/Name'
+import GlobalProviders from '@/contexts/GlobalProviders'
 
 import Main from '@/components/Main'
 import Title from '@/components/Head/Title'
@@ -8,7 +8,7 @@ import Right from '@/components/Right'
 
 const App = () => {
   return (
-    <NameProvider>
+    <GlobalProviders>
       <Title />
 
       <Main>
@@ -18,7 +18,7 @@ const App = () => {
 
         <Right />
       </Main>
-    </NameProvider>
+    </GlobalProviders>
   )
 }
 

@@ -1,8 +1,8 @@
 import { useContext, useState } from 'react'
 
 import { NameCtx } from '@/contexts/Name'
-import DynamicGreeting from './DynamicGreeting'
 import { InputChange, FormSubmit } from '@/interfaces/htmlEvents'
+import DynamicGreeting from './DynamicGreeting'
 import styles from '@/styles/Center.module.css'
 
 export const Greeting = () => {

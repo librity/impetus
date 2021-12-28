@@ -3,12 +3,12 @@ import FullLocale from '@/interfaces/FullLocale'
 const FULL_LOCALES: FullLocale[] = [
   {
     id: 1,
-    code: 'af_NA',
+    code: 'af-NA',
     name: 'Afrikaans (Namibia)',
   },
   {
     id: 2,
-    code: 'af_ZA',
+    code: 'af-ZA',
     name: 'Afrikaans (South Africa)',
   },
   {
@@ -18,7 +18,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 4,
-    code: 'ak_GH',
+    code: 'ak-GH',
     name: 'Akan (Ghana)',
   },
   {
@@ -28,7 +28,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 6,
-    code: 'sq_AL',
+    code: 'sq-AL',
     name: 'Albanian (Albania)',
   },
   {
@@ -38,7 +38,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 8,
-    code: 'am_ET',
+    code: 'am-ET',
     name: 'Amharic (Ethiopia)',
   },
   {
@@ -48,87 +48,87 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 10,
-    code: 'ar_DZ',
+    code: 'ar-DZ',
     name: 'Arabic (Algeria)',
   },
   {
     id: 11,
-    code: 'ar_BH',
+    code: 'ar-BH',
     name: 'Arabic (Bahrain)',
   },
   {
     id: 12,
-    code: 'ar_EG',
+    code: 'ar-EG',
     name: 'Arabic (Egypt)',
   },
   {
     id: 13,
-    code: 'ar_IQ',
+    code: 'ar-IQ',
     name: 'Arabic (Iraq)',
   },
   {
     id: 14,
-    code: 'ar_JO',
+    code: 'ar-JO',
     name: 'Arabic (Jordan)',
   },
   {
     id: 15,
-    code: 'ar_KW',
+    code: 'ar-KW',
     name: 'Arabic (Kuwait)',
   },
   {
     id: 16,
-    code: 'ar_LB',
+    code: 'ar-LB',
     name: 'Arabic (Lebanon)',
   },
   {
     id: 17,
-    code: 'ar_LY',
+    code: 'ar-LY',
     name: 'Arabic (Libya)',
   },
   {
     id: 18,
-    code: 'ar_MA',
+    code: 'ar-MA',
     name: 'Arabic (Morocco)',
   },
   {
     id: 19,
-    code: 'ar_OM',
+    code: 'ar-OM',
     name: 'Arabic (Oman)',
   },
   {
     id: 20,
-    code: 'ar_QA',
+    code: 'ar-QA',
     name: 'Arabic (Qatar)',
   },
   {
     id: 21,
-    code: 'ar_SA',
+    code: 'ar-SA',
     name: 'Arabic (Saudi Arabia)',
   },
   {
     id: 22,
-    code: 'ar_SD',
+    code: 'ar-SD',
     name: 'Arabic (Sudan)',
   },
   {
     id: 23,
-    code: 'ar_SY',
+    code: 'ar-SY',
     name: 'Arabic (Syria)',
   },
   {
     id: 24,
-    code: 'ar_TN',
+    code: 'ar-TN',
     name: 'Arabic (Tunisia)',
   },
   {
     id: 25,
-    code: 'ar_AE',
+    code: 'ar-AE',
     name: 'Arabic (United Arab Emirates)',
   },
   {
     id: 26,
-    code: 'ar_YE',
+    code: 'ar-YE',
     name: 'Arabic (Yemen)',
   },
   {
@@ -138,7 +138,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 28,
-    code: 'hy_AM',
+    code: 'hy-AM',
     name: 'Armenian (Armenia)',
   },
   {
@@ -148,7 +148,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 30,
-    code: 'as_IN',
+    code: 'as-IN',
     name: 'Assamese (India)',
   },
   {
@@ -158,7 +158,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 32,
-    code: 'asa_TZ',
+    code: 'asa-TZ',
     name: 'Asu (Tanzania)',
   },
   {
@@ -168,22 +168,22 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 34,
-    code: 'az_Cyrl',
+    code: 'az-Cyrl',
     name: 'Azerbaijani (Cyrillic)',
   },
   {
     id: 35,
-    code: 'az_Cyrl_AZ',
+    code: 'az-Cyrl-AZ',
     name: 'Azerbaijani (Cyrillic, Azerbaijan)',
   },
   {
     id: 36,
-    code: 'az_Latn',
+    code: 'az-Latn',
     name: 'Azerbaijani (Latin)',
   },
   {
     id: 37,
-    code: 'az_Latn_AZ',
+    code: 'az-Latn-AZ',
     name: 'Azerbaijani (Latin, Azerbaijan)',
   },
   {
@@ -193,7 +193,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 39,
-    code: 'bm_ML',
+    code: 'bm-ML',
     name: 'Bambara (Mali)',
   },
   {
@@ -203,7 +203,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 41,
-    code: 'eu_ES',
+    code: 'eu-ES',
     name: 'Basque (Spain)',
   },
   {
@@ -213,7 +213,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 43,
-    code: 'be_BY',
+    code: 'be-BY',
     name: 'Belarusian (Belarus)',
   },
   {
@@ -223,7 +223,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 45,
-    code: 'bem_ZM',
+    code: 'bem-ZM',
     name: 'Bemba (Zambia)',
   },
   {
@@ -233,7 +233,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 47,
-    code: 'bez_TZ',
+    code: 'bez-TZ',
     name: 'Bena (Tanzania)',
   },
   {
@@ -243,12 +243,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 49,
-    code: 'bn_BD',
+    code: 'bn-BD',
     name: 'Bengali (Bangladesh)',
   },
   {
     id: 50,
-    code: 'bn_IN',
+    code: 'bn-IN',
     name: 'Bengali (India)',
   },
   {
@@ -258,7 +258,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 52,
-    code: 'bs_BA',
+    code: 'bs-BA',
     name: 'Bosnian (Bosnia and Herzegovina)',
   },
   {
@@ -268,7 +268,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 54,
-    code: 'bg_BG',
+    code: 'bg-BG',
     name: 'Bulgarian (Bulgaria)',
   },
   {
@@ -278,7 +278,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 56,
-    code: 'my_MM',
+    code: 'my-MM',
     name: 'Burmese (Myanmar [Burma])',
   },
   {
@@ -288,12 +288,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 58,
-    code: 'yue_Hant_HK',
+    code: 'yue-Hant-HK',
     name: 'Cantonese (Traditional, Hong Kong SAR China)',
   },
   {
     id: 59,
-    code: 'ca_ES',
+    code: 'ca-ES',
     name: 'Catalan (Spain)',
   },
   {
@@ -303,12 +303,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 61,
-    code: 'tzm_Latn',
+    code: 'tzm-Latn',
     name: 'Central Morocco Tamazight (Latin)',
   },
   {
     id: 62,
-    code: 'tzm_Latn_MA',
+    code: 'tzm-Latn-MA',
     name: 'Central Morocco Tamazight (Latin, Morocco)',
   },
   {
@@ -318,7 +318,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 64,
-    code: 'chr_US',
+    code: 'chr-US',
     name: 'Cherokee (United States)',
   },
   {
@@ -328,7 +328,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 66,
-    code: 'cgg_UG',
+    code: 'cgg-UG',
     name: 'Chiga (Uganda)',
   },
   {
@@ -338,47 +338,47 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 68,
-    code: 'zh_Hans',
+    code: 'zh-Hans',
     name: 'Chinese (Simplified Han)',
   },
   {
     id: 69,
-    code: 'zh_Hans_CN',
+    code: 'zh-Hans-CN',
     name: 'Chinese (Simplified Han, China)',
   },
   {
     id: 70,
-    code: 'zh_Hans_HK',
+    code: 'zh-Hans-HK',
     name: 'Chinese (Simplified Han, Hong Kong SAR China)',
   },
   {
     id: 71,
-    code: 'zh_Hans_MO',
+    code: 'zh-Hans-MO',
     name: 'Chinese (Simplified Han, Macau SAR China)',
   },
   {
     id: 72,
-    code: 'zh_Hans_SG',
+    code: 'zh-Hans-SG',
     name: 'Chinese (Simplified Han, Singapore)',
   },
   {
     id: 73,
-    code: 'zh_Hant',
+    code: 'zh-Hant',
     name: 'Chinese (Traditional Han)',
   },
   {
     id: 74,
-    code: 'zh_Hant_HK',
+    code: 'zh-Hant-HK',
     name: 'Chinese (Traditional Han, Hong Kong SAR China)',
   },
   {
     id: 75,
-    code: 'zh_Hant_MO',
+    code: 'zh-Hant-MO',
     name: 'Chinese (Traditional Han, Macau SAR China)',
   },
   {
     id: 76,
-    code: 'zh_Hant_TW',
+    code: 'zh-Hant-TW',
     name: 'Chinese (Traditional Han, Taiwan)',
   },
   {
@@ -388,7 +388,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 78,
-    code: 'kw_GB',
+    code: 'kw-GB',
     name: 'Cornish (United Kingdom)',
   },
   {
@@ -398,7 +398,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 80,
-    code: 'hr_HR',
+    code: 'hr-HR',
     name: 'Croatian (Croatia)',
   },
   {
@@ -408,7 +408,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 82,
-    code: 'cs_CZ',
+    code: 'cs-CZ',
     name: 'Czech (Czech Republic)',
   },
   {
@@ -418,7 +418,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 84,
-    code: 'da_DK',
+    code: 'da-DK',
     name: 'Danish (Denmark)',
   },
   {
@@ -428,12 +428,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 86,
-    code: 'nl_BE',
+    code: 'nl-BE',
     name: 'Dutch (Belgium)',
   },
   {
     id: 87,
-    code: 'nl_NL',
+    code: 'nl-NL',
     name: 'Dutch (Netherlands)',
   },
   {
@@ -443,7 +443,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 89,
-    code: 'ebu_KE',
+    code: 'ebu-KE',
     name: 'Embu (Kenya)',
   },
   {
@@ -453,142 +453,142 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 91,
-    code: 'en_AS',
+    code: 'en-AS',
     name: 'English (American Samoa)',
   },
   {
     id: 92,
-    code: 'en_AU',
+    code: 'en-AU',
     name: 'English (Australia)',
   },
   {
     id: 93,
-    code: 'en_BE',
+    code: 'en-BE',
     name: 'English (Belgium)',
   },
   {
     id: 94,
-    code: 'en_BZ',
+    code: 'en-BZ',
     name: 'English (Belize)',
   },
   {
     id: 95,
-    code: 'en_BW',
+    code: 'en-BW',
     name: 'English (Botswana)',
   },
   {
     id: 96,
-    code: 'en_CA',
+    code: 'en-CA',
     name: 'English (Canada)',
   },
   {
     id: 97,
-    code: 'en_GU',
+    code: 'en-GU',
     name: 'English (Guam)',
   },
   {
     id: 98,
-    code: 'en_HK',
+    code: 'en-HK',
     name: 'English (Hong Kong SAR China)',
   },
   {
     id: 99,
-    code: 'en_IN',
+    code: 'en-IN',
     name: 'English (India)',
   },
   {
     id: 100,
-    code: 'en_IE',
+    code: 'en-IE',
     name: 'English (Ireland)',
   },
   {
     id: 101,
-    code: 'en_IL',
+    code: 'en-IL',
     name: 'English (Israel)',
   },
   {
     id: 102,
-    code: 'en_JM',
+    code: 'en-JM',
     name: 'English (Jamaica)',
   },
   {
     id: 103,
-    code: 'en_MT',
+    code: 'en-MT',
     name: 'English (Malta)',
   },
   {
     id: 104,
-    code: 'en_MH',
+    code: 'en-MH',
     name: 'English (Marshall Islands)',
   },
   {
     id: 105,
-    code: 'en_MU',
+    code: 'en-MU',
     name: 'English (Mauritius)',
   },
   {
     id: 106,
-    code: 'en_NA',
+    code: 'en-NA',
     name: 'English (Namibia)',
   },
   {
     id: 107,
-    code: 'en_NZ',
+    code: 'en-NZ',
     name: 'English (New Zealand)',
   },
   {
     id: 108,
-    code: 'en_MP',
+    code: 'en-MP',
     name: 'English (Northern Mariana Islands)',
   },
   {
     id: 109,
-    code: 'en_PK',
+    code: 'en-PK',
     name: 'English (Pakistan)',
   },
   {
     id: 110,
-    code: 'en_PH',
+    code: 'en-PH',
     name: 'English (Philippines)',
   },
   {
     id: 111,
-    code: 'en_SG',
+    code: 'en-SG',
     name: 'English (Singapore)',
   },
   {
     id: 112,
-    code: 'en_ZA',
+    code: 'en-ZA',
     name: 'English (South Africa)',
   },
   {
     id: 113,
-    code: 'en_TT',
+    code: 'en-TT',
     name: 'English (Trinidad and Tobago)',
   },
   {
     id: 114,
-    code: 'en_UM',
+    code: 'en-UM',
     name: 'English (U.S. Minor Outlying Islands)',
   },
   {
     id: 115,
-    code: 'en_VI',
+    code: 'en-VI',
     name: 'English (U.S. Virgin Islands)',
   },
   {
     id: 116,
-    code: 'en_GB',
+    code: 'en-GB',
     name: 'English (United Kingdom)',
   },
   {
     id: 117,
-    code: 'en_US',
+    code: 'en-US',
     name: 'English (United States)',
   },
   {
     id: 118,
-    code: 'en_ZW',
+    code: 'en-ZW',
     name: 'English (Zimbabwe)',
   },
   {
@@ -603,7 +603,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 121,
-    code: 'et_EE',
+    code: 'et-EE',
     name: 'Estonian (Estonia)',
   },
   {
@@ -613,12 +613,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 123,
-    code: 'ee_GH',
+    code: 'ee-GH',
     name: 'Ewe (Ghana)',
   },
   {
     id: 124,
-    code: 'ee_TG',
+    code: 'ee-TG',
     name: 'Ewe (Togo)',
   },
   {
@@ -628,7 +628,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 126,
-    code: 'fo_FO',
+    code: 'fo-FO',
     name: 'Faroese (Faroe Islands)',
   },
   {
@@ -638,7 +638,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 128,
-    code: 'fil_PH',
+    code: 'fil-PH',
     name: 'Filipino (Philippines)',
   },
   {
@@ -648,7 +648,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 130,
-    code: 'fi_FI',
+    code: 'fi-FI',
     name: 'Finnish (Finland)',
   },
   {
@@ -658,157 +658,157 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 132,
-    code: 'fr_BE',
+    code: 'fr-BE',
     name: 'French (Belgium)',
   },
   {
     id: 133,
-    code: 'fr_BJ',
+    code: 'fr-BJ',
     name: 'French (Benin)',
   },
   {
     id: 134,
-    code: 'fr_BF',
+    code: 'fr-BF',
     name: 'French (Burkina Faso)',
   },
   {
     id: 135,
-    code: 'fr_BI',
+    code: 'fr-BI',
     name: 'French (Burundi)',
   },
   {
     id: 136,
-    code: 'fr_CM',
+    code: 'fr-CM',
     name: 'French (Cameroon)',
   },
   {
     id: 137,
-    code: 'fr_CA',
+    code: 'fr-CA',
     name: 'French (Canada)',
   },
   {
     id: 138,
-    code: 'fr_CF',
+    code: 'fr-CF',
     name: 'French (Central African Republic)',
   },
   {
     id: 139,
-    code: 'fr_TD',
+    code: 'fr-TD',
     name: 'French (Chad)',
   },
   {
     id: 140,
-    code: 'fr_KM',
+    code: 'fr-KM',
     name: 'French (Comoros)',
   },
   {
     id: 141,
-    code: 'fr_CG',
+    code: 'fr-CG',
     name: 'French (Congo - Brazzaville)',
   },
   {
     id: 142,
-    code: 'fr_CD',
+    code: 'fr-CD',
     name: 'French (Congo - Kinshasa)',
   },
   {
     id: 143,
-    code: 'fr_CI',
+    code: 'fr-CI',
     name: 'French (Côte d’Ivoire)',
   },
   {
     id: 144,
-    code: 'fr_DJ',
+    code: 'fr-DJ',
     name: 'French (Djibouti)',
   },
   {
     id: 145,
-    code: 'fr_GQ',
+    code: 'fr-GQ',
     name: 'French (Equatorial Guinea)',
   },
   {
     id: 146,
-    code: 'fr_FR',
+    code: 'fr-FR',
     name: 'French (France)',
   },
   {
     id: 147,
-    code: 'fr_GA',
+    code: 'fr-GA',
     name: 'French (Gabon)',
   },
   {
     id: 148,
-    code: 'fr_GP',
+    code: 'fr-GP',
     name: 'French (Guadeloupe)',
   },
   {
     id: 149,
-    code: 'fr_GN',
+    code: 'fr-GN',
     name: 'French (Guinea)',
   },
   {
     id: 150,
-    code: 'fr_LU',
+    code: 'fr-LU',
     name: 'French (Luxembourg)',
   },
   {
     id: 151,
-    code: 'fr_MG',
+    code: 'fr-MG',
     name: 'French (Madagascar)',
   },
   {
     id: 152,
-    code: 'fr_ML',
+    code: 'fr-ML',
     name: 'French (Mali)',
   },
   {
     id: 153,
-    code: 'fr_MQ',
+    code: 'fr-MQ',
     name: 'French (Martinique)',
   },
   {
     id: 154,
-    code: 'fr_MC',
+    code: 'fr-MC',
     name: 'French (Monaco)',
   },
   {
     id: 155,
-    code: 'fr_NE',
+    code: 'fr-NE',
     name: 'French (Niger)',
   },
   {
     id: 156,
-    code: 'fr_RW',
+    code: 'fr-RW',
     name: 'French (Rwanda)',
   },
   {
     id: 157,
-    code: 'fr_RE',
+    code: 'fr-RE',
     name: 'French (Réunion)',
   },
   {
     id: 158,
-    code: 'fr_BL',
+    code: 'fr-BL',
     name: 'French (Saint Barthélemy)',
   },
   {
     id: 159,
-    code: 'fr_MF',
+    code: 'fr-MF',
     name: 'French (Saint Martin)',
   },
   {
     id: 160,
-    code: 'fr_SN',
+    code: 'fr-SN',
     name: 'French (Senegal)',
   },
   {
     id: 161,
-    code: 'fr_CH',
+    code: 'fr-CH',
     name: 'French (Switzerland)',
   },
   {
     id: 162,
-    code: 'fr_TG',
+    code: 'fr-TG',
     name: 'French (Togo)',
   },
   {
@@ -818,7 +818,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 164,
-    code: 'ff_SN',
+    code: 'ff-SN',
     name: 'Fulah (Senegal)',
   },
   {
@@ -828,7 +828,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 166,
-    code: 'gl_ES',
+    code: 'gl-ES',
     name: 'Galician (Spain)',
   },
   {
@@ -838,7 +838,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 168,
-    code: 'lg_UG',
+    code: 'lg-UG',
     name: 'Ganda (Uganda)',
   },
   {
@@ -848,7 +848,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 170,
-    code: 'ka_GE',
+    code: 'ka-GE',
     name: 'Georgian (Georgia)',
   },
   {
@@ -858,32 +858,32 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 172,
-    code: 'de_AT',
+    code: 'de-AT',
     name: 'German (Austria)',
   },
   {
     id: 173,
-    code: 'de_BE',
+    code: 'de-BE',
     name: 'German (Belgium)',
   },
   {
     id: 174,
-    code: 'de_DE',
+    code: 'de-DE',
     name: 'German (Germany)',
   },
   {
     id: 175,
-    code: 'de_LI',
+    code: 'de-LI',
     name: 'German (Liechtenstein)',
   },
   {
     id: 176,
-    code: 'de_LU',
+    code: 'de-LU',
     name: 'German (Luxembourg)',
   },
   {
     id: 177,
-    code: 'de_CH',
+    code: 'de-CH',
     name: 'German (Switzerland)',
   },
   {
@@ -893,12 +893,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 179,
-    code: 'el_CY',
+    code: 'el-CY',
     name: 'Greek (Cyprus)',
   },
   {
     id: 180,
-    code: 'el_GR',
+    code: 'el-GR',
     name: 'Greek (Greece)',
   },
   {
@@ -908,7 +908,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 182,
-    code: 'gu_IN',
+    code: 'gu-IN',
     name: 'Gujarati (India)',
   },
   {
@@ -918,7 +918,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 184,
-    code: 'guz_KE',
+    code: 'guz-KE',
     name: 'Gusii (Kenya)',
   },
   {
@@ -928,22 +928,22 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 186,
-    code: 'ha_Latn',
+    code: 'ha-Latn',
     name: 'Hausa (Latin)',
   },
   {
     id: 187,
-    code: 'ha_Latn_GH',
+    code: 'ha-Latn-GH',
     name: 'Hausa (Latin, Ghana)',
   },
   {
     id: 188,
-    code: 'ha_Latn_NE',
+    code: 'ha-Latn-NE',
     name: 'Hausa (Latin, Niger)',
   },
   {
     id: 189,
-    code: 'ha_Latn_NG',
+    code: 'ha-Latn-NG',
     name: 'Hausa (Latin, Nigeria)',
   },
   {
@@ -953,7 +953,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 191,
-    code: 'haw_US',
+    code: 'haw-US',
     name: 'Hawaiian (United States)',
   },
   {
@@ -963,7 +963,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 193,
-    code: 'he_IL',
+    code: 'he-IL',
     name: 'Hebrew (Israel)',
   },
   {
@@ -973,7 +973,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 195,
-    code: 'hi_IN',
+    code: 'hi-IN',
     name: 'Hindi (India)',
   },
   {
@@ -983,7 +983,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 197,
-    code: 'hu_HU',
+    code: 'hu-HU',
     name: 'Hungarian (Hungary)',
   },
   {
@@ -993,7 +993,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 199,
-    code: 'is_IS',
+    code: 'is-IS',
     name: 'Icelandic (Iceland)',
   },
   {
@@ -1003,7 +1003,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 201,
-    code: 'ig_NG',
+    code: 'ig-NG',
     name: 'Igbo (Nigeria)',
   },
   {
@@ -1013,7 +1013,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 203,
-    code: 'id_ID',
+    code: 'id-ID',
     name: 'Indonesian (Indonesia)',
   },
   {
@@ -1023,7 +1023,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 205,
-    code: 'ga_IE',
+    code: 'ga-IE',
     name: 'Irish (Ireland)',
   },
   {
@@ -1033,12 +1033,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 207,
-    code: 'it_IT',
+    code: 'it-IT',
     name: 'Italian (Italy)',
   },
   {
     id: 208,
-    code: 'it_CH',
+    code: 'it-CH',
     name: 'Italian (Switzerland)',
   },
   {
@@ -1048,7 +1048,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 210,
-    code: 'ja_JP',
+    code: 'ja-JP',
     name: 'Japanese (Japan)',
   },
   {
@@ -1058,7 +1058,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 212,
-    code: 'kea_CV',
+    code: 'kea-CV',
     name: 'Kabuverdianu (Cape Verde)',
   },
   {
@@ -1068,7 +1068,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 214,
-    code: 'kab_DZ',
+    code: 'kab-DZ',
     name: 'Kabyle (Algeria)',
   },
   {
@@ -1078,7 +1078,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 216,
-    code: 'kl_GL',
+    code: 'kl-GL',
     name: 'Kalaallisut (Greenland)',
   },
   {
@@ -1088,7 +1088,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 218,
-    code: 'kln_KE',
+    code: 'kln-KE',
     name: 'Kalenjin (Kenya)',
   },
   {
@@ -1098,7 +1098,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 220,
-    code: 'kam_KE',
+    code: 'kam-KE',
     name: 'Kamba (Kenya)',
   },
   {
@@ -1108,7 +1108,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 222,
-    code: 'kn_IN',
+    code: 'kn-IN',
     name: 'Kannada (India)',
   },
   {
@@ -1118,12 +1118,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 224,
-    code: 'kk_Cyrl',
+    code: 'kk-Cyrl',
     name: 'Kazakh (Cyrillic)',
   },
   {
     id: 225,
-    code: 'kk_Cyrl_KZ',
+    code: 'kk-Cyrl-KZ',
     name: 'Kazakh (Cyrillic, Kazakhstan)',
   },
   {
@@ -1133,7 +1133,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 227,
-    code: 'km_KH',
+    code: 'km-KH',
     name: 'Khmer (Cambodia)',
   },
   {
@@ -1143,7 +1143,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 229,
-    code: 'ki_KE',
+    code: 'ki-KE',
     name: 'Kikuyu (Kenya)',
   },
   {
@@ -1153,7 +1153,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 231,
-    code: 'rw_RW',
+    code: 'rw-RW',
     name: 'Kinyarwanda (Rwanda)',
   },
   {
@@ -1163,7 +1163,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 233,
-    code: 'kok_IN',
+    code: 'kok-IN',
     name: 'Konkani (India)',
   },
   {
@@ -1173,7 +1173,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 235,
-    code: 'ko_KR',
+    code: 'ko-KR',
     name: 'Korean (South Korea)',
   },
   {
@@ -1183,7 +1183,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 237,
-    code: 'khq_ML',
+    code: 'khq-ML',
     name: 'Koyra Chiini (Mali)',
   },
   {
@@ -1193,7 +1193,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 239,
-    code: 'ses_ML',
+    code: 'ses-ML',
     name: 'Koyraboro Senni (Mali)',
   },
   {
@@ -1203,7 +1203,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 241,
-    code: 'lag_TZ',
+    code: 'lag-TZ',
     name: 'Langi (Tanzania)',
   },
   {
@@ -1213,7 +1213,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 243,
-    code: 'lv_LV',
+    code: 'lv-LV',
     name: 'Latvian (Latvia)',
   },
   {
@@ -1223,7 +1223,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 245,
-    code: 'lt_LT',
+    code: 'lt-LT',
     name: 'Lithuanian (Lithuania)',
   },
   {
@@ -1233,7 +1233,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 247,
-    code: 'luo_KE',
+    code: 'luo-KE',
     name: 'Luo (Kenya)',
   },
   {
@@ -1243,7 +1243,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 249,
-    code: 'luy_KE',
+    code: 'luy-KE',
     name: 'Luyia (Kenya)',
   },
   {
@@ -1253,7 +1253,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 251,
-    code: 'mk_MK',
+    code: 'mk-MK',
     name: 'Macedonian (Macedonia)',
   },
   {
@@ -1263,7 +1263,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 253,
-    code: 'jmc_TZ',
+    code: 'jmc-TZ',
     name: 'Machame (Tanzania)',
   },
   {
@@ -1273,7 +1273,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 255,
-    code: 'kde_TZ',
+    code: 'kde-TZ',
     name: 'Makonde (Tanzania)',
   },
   {
@@ -1283,7 +1283,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 257,
-    code: 'mg_MG',
+    code: 'mg-MG',
     name: 'Malagasy (Madagascar)',
   },
   {
@@ -1293,12 +1293,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 259,
-    code: 'ms_BN',
+    code: 'ms-BN',
     name: 'Malay (Brunei)',
   },
   {
     id: 260,
-    code: 'ms_MY',
+    code: 'ms-MY',
     name: 'Malay (Malaysia)',
   },
   {
@@ -1308,7 +1308,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 262,
-    code: 'ml_IN',
+    code: 'ml-IN',
     name: 'Malayalam (India)',
   },
   {
@@ -1318,7 +1318,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 264,
-    code: 'mt_MT',
+    code: 'mt-MT',
     name: 'Maltese (Malta)',
   },
   {
@@ -1328,7 +1328,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 266,
-    code: 'gv_GB',
+    code: 'gv-GB',
     name: 'Manx (United Kingdom)',
   },
   {
@@ -1338,7 +1338,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 268,
-    code: 'mr_IN',
+    code: 'mr-IN',
     name: 'Marathi (India)',
   },
   {
@@ -1348,12 +1348,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 270,
-    code: 'mas_KE',
+    code: 'mas-KE',
     name: 'Masai (Kenya)',
   },
   {
     id: 271,
-    code: 'mas_TZ',
+    code: 'mas-TZ',
     name: 'Masai (Tanzania)',
   },
   {
@@ -1363,7 +1363,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 273,
-    code: 'mer_KE',
+    code: 'mer-KE',
     name: 'Meru (Kenya)',
   },
   {
@@ -1373,7 +1373,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 275,
-    code: 'mfe_MU',
+    code: 'mfe-MU',
     name: 'Morisyen (Mauritius)',
   },
   {
@@ -1383,7 +1383,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 277,
-    code: 'naq_NA',
+    code: 'naq-NA',
     name: 'Nama (Namibia)',
   },
   {
@@ -1393,12 +1393,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 279,
-    code: 'ne_IN',
+    code: 'ne-IN',
     name: 'Nepali (India)',
   },
   {
     id: 280,
-    code: 'ne_NP',
+    code: 'ne-NP',
     name: 'Nepali (Nepal)',
   },
   {
@@ -1408,7 +1408,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 282,
-    code: 'nd_ZW',
+    code: 'nd-ZW',
     name: 'North Ndebele (Zimbabwe)',
   },
   {
@@ -1418,7 +1418,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 284,
-    code: 'nb_NO',
+    code: 'nb-NO',
     name: 'Norwegian Bokmål (Norway)',
   },
   {
@@ -1428,7 +1428,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 286,
-    code: 'nn_NO',
+    code: 'nn-NO',
     name: 'Norwegian Nynorsk (Norway)',
   },
   {
@@ -1438,7 +1438,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 288,
-    code: 'nyn_UG',
+    code: 'nyn-UG',
     name: 'Nyankole (Uganda)',
   },
   {
@@ -1448,7 +1448,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 290,
-    code: 'or_IN',
+    code: 'or-IN',
     name: 'Oriya (India)',
   },
   {
@@ -1458,12 +1458,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 292,
-    code: 'om_ET',
+    code: 'om-ET',
     name: 'Oromo (Ethiopia)',
   },
   {
     id: 293,
-    code: 'om_KE',
+    code: 'om-KE',
     name: 'Oromo (Kenya)',
   },
   {
@@ -1473,7 +1473,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 295,
-    code: 'ps_AF',
+    code: 'ps-AF',
     name: 'Pashto (Afghanistan)',
   },
   {
@@ -1483,12 +1483,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 297,
-    code: 'fa_AF',
+    code: 'fa-AF',
     name: 'Persian (Afghanistan)',
   },
   {
     id: 298,
-    code: 'fa_IR',
+    code: 'fa-IR',
     name: 'Persian (Iran)',
   },
   {
@@ -1498,7 +1498,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 300,
-    code: 'pl_PL',
+    code: 'pl-PL',
     name: 'Polish (Poland)',
   },
   {
@@ -1508,22 +1508,22 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 302,
-    code: 'pt_BR',
+    code: 'pt-BR',
     name: 'Portuguese (Brazil)',
   },
   {
     id: 303,
-    code: 'pt_GW',
+    code: 'pt-GW',
     name: 'Portuguese (Guinea-Bissau)',
   },
   {
     id: 304,
-    code: 'pt_MZ',
+    code: 'pt-MZ',
     name: 'Portuguese (Mozambique)',
   },
   {
     id: 305,
-    code: 'pt_PT',
+    code: 'pt-PT',
     name: 'Portuguese (Portugal)',
   },
   {
@@ -1533,22 +1533,22 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 307,
-    code: 'pa_Arab',
+    code: 'pa-Arab',
     name: 'Punjabi (Arabic)',
   },
   {
     id: 308,
-    code: 'pa_Arab_PK',
+    code: 'pa-Arab-PK',
     name: 'Punjabi (Arabic, Pakistan)',
   },
   {
     id: 309,
-    code: 'pa_Guru',
+    code: 'pa-Guru',
     name: 'Punjabi (Gurmukhi)',
   },
   {
     id: 310,
-    code: 'pa_Guru_IN',
+    code: 'pa-Guru-IN',
     name: 'Punjabi (Gurmukhi, India)',
   },
   {
@@ -1558,12 +1558,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 312,
-    code: 'ro_MD',
+    code: 'ro-MD',
     name: 'Romanian (Moldova)',
   },
   {
     id: 313,
-    code: 'ro_RO',
+    code: 'ro-RO',
     name: 'Romanian (Romania)',
   },
   {
@@ -1573,7 +1573,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 315,
-    code: 'rm_CH',
+    code: 'rm-CH',
     name: 'Romansh (Switzerland)',
   },
   {
@@ -1583,7 +1583,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 317,
-    code: 'rof_TZ',
+    code: 'rof-TZ',
     name: 'Rombo (Tanzania)',
   },
   {
@@ -1593,17 +1593,17 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 319,
-    code: 'ru_MD',
+    code: 'ru-MD',
     name: 'Russian (Moldova)',
   },
   {
     id: 320,
-    code: 'ru_RU',
+    code: 'ru-RU',
     name: 'Russian (Russia)',
   },
   {
     id: 321,
-    code: 'ru_UA',
+    code: 'ru-UA',
     name: 'Russian (Ukraine)',
   },
   {
@@ -1613,7 +1613,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 323,
-    code: 'rwk_TZ',
+    code: 'rwk-TZ',
     name: 'Rwa (Tanzania)',
   },
   {
@@ -1623,7 +1623,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 325,
-    code: 'saq_KE',
+    code: 'saq-KE',
     name: 'Samburu (Kenya)',
   },
   {
@@ -1633,7 +1633,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 327,
-    code: 'sg_CF',
+    code: 'sg-CF',
     name: 'Sango (Central African Republic)',
   },
   {
@@ -1643,7 +1643,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 329,
-    code: 'seh_MZ',
+    code: 'seh-MZ',
     name: 'Sena (Mozambique)',
   },
   {
@@ -1653,42 +1653,42 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 331,
-    code: 'sr_Cyrl',
+    code: 'sr-Cyrl',
     name: 'Serbian (Cyrillic)',
   },
   {
     id: 332,
-    code: 'sr_Cyrl_BA',
+    code: 'sr-Cyrl-BA',
     name: 'Serbian (Cyrillic, Bosnia and Herzegovina)',
   },
   {
     id: 333,
-    code: 'sr_Cyrl_ME',
+    code: 'sr-Cyrl-ME',
     name: 'Serbian (Cyrillic, Montenegro)',
   },
   {
     id: 334,
-    code: 'sr_Cyrl_RS',
+    code: 'sr-Cyrl-RS',
     name: 'Serbian (Cyrillic, Serbia)',
   },
   {
     id: 335,
-    code: 'sr_Latn',
+    code: 'sr-Latn',
     name: 'Serbian (Latin)',
   },
   {
     id: 336,
-    code: 'sr_Latn_BA',
+    code: 'sr-Latn-BA',
     name: 'Serbian (Latin, Bosnia and Herzegovina)',
   },
   {
     id: 337,
-    code: 'sr_Latn_ME',
+    code: 'sr-Latn-ME',
     name: 'Serbian (Latin, Montenegro)',
   },
   {
     id: 338,
-    code: 'sr_Latn_RS',
+    code: 'sr-Latn-RS',
     name: 'Serbian (Latin, Serbia)',
   },
   {
@@ -1698,7 +1698,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 340,
-    code: 'sn_ZW',
+    code: 'sn-ZW',
     name: 'Shona (Zimbabwe)',
   },
   {
@@ -1708,7 +1708,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 342,
-    code: 'ii_CN',
+    code: 'ii-CN',
     name: 'Sichuan Yi (China)',
   },
   {
@@ -1718,7 +1718,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 344,
-    code: 'si_LK',
+    code: 'si-LK',
     name: 'Sinhala (Sri Lanka)',
   },
   {
@@ -1728,7 +1728,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 346,
-    code: 'sk_SK',
+    code: 'sk-SK',
     name: 'Slovak (Slovakia)',
   },
   {
@@ -1738,7 +1738,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 348,
-    code: 'sl_SI',
+    code: 'sl-SI',
     name: 'Slovenian (Slovenia)',
   },
   {
@@ -1748,7 +1748,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 350,
-    code: 'xog_UG',
+    code: 'xog-UG',
     name: 'Soga (Uganda)',
   },
   {
@@ -1758,22 +1758,22 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 352,
-    code: 'so_DJ',
+    code: 'so-DJ',
     name: 'Somali (Djibouti)',
   },
   {
     id: 353,
-    code: 'so_ET',
+    code: 'so-ET',
     name: 'Somali (Ethiopia)',
   },
   {
     id: 354,
-    code: 'so_KE',
+    code: 'so-KE',
     name: 'Somali (Kenya)',
   },
   {
     id: 355,
-    code: 'so_SO',
+    code: 'so-SO',
     name: 'Somali (Somalia)',
   },
   {
@@ -1783,112 +1783,112 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 357,
-    code: 'es_AR',
+    code: 'es-AR',
     name: 'Spanish (Argentina)',
   },
   {
     id: 358,
-    code: 'es_BO',
+    code: 'es-BO',
     name: 'Spanish (Bolivia)',
   },
   {
     id: 359,
-    code: 'es_CL',
+    code: 'es-CL',
     name: 'Spanish (Chile)',
   },
   {
     id: 360,
-    code: 'es_CO',
+    code: 'es-CO',
     name: 'Spanish (Colombia)',
   },
   {
     id: 361,
-    code: 'es_CR',
+    code: 'es-CR',
     name: 'Spanish (Costa Rica)',
   },
   {
     id: 362,
-    code: 'es_DO',
+    code: 'es-DO',
     name: 'Spanish (Dominican Republic)',
   },
   {
     id: 363,
-    code: 'es_EC',
+    code: 'es-EC',
     name: 'Spanish (Ecuador)',
   },
   {
     id: 364,
-    code: 'es_SV',
+    code: 'es-SV',
     name: 'Spanish (El Salvador)',
   },
   {
     id: 365,
-    code: 'es_GQ',
+    code: 'es-GQ',
     name: 'Spanish (Equatorial Guinea)',
   },
   {
     id: 366,
-    code: 'es_GT',
+    code: 'es-GT',
     name: 'Spanish (Guatemala)',
   },
   {
     id: 367,
-    code: 'es_HN',
+    code: 'es-HN',
     name: 'Spanish (Honduras)',
   },
   {
     id: 368,
-    code: 'es_419',
+    code: 'es-419',
     name: 'Spanish (Latin America)',
   },
   {
     id: 369,
-    code: 'es_MX',
+    code: 'es-MX',
     name: 'Spanish (Mexico)',
   },
   {
     id: 370,
-    code: 'es_NI',
+    code: 'es-NI',
     name: 'Spanish (Nicaragua)',
   },
   {
     id: 371,
-    code: 'es_PA',
+    code: 'es-PA',
     name: 'Spanish (Panama)',
   },
   {
     id: 372,
-    code: 'es_PY',
+    code: 'es-PY',
     name: 'Spanish (Paraguay)',
   },
   {
     id: 373,
-    code: 'es_PE',
+    code: 'es-PE',
     name: 'Spanish (Peru)',
   },
   {
     id: 374,
-    code: 'es_PR',
+    code: 'es-PR',
     name: 'Spanish (Puerto Rico)',
   },
   {
     id: 375,
-    code: 'es_ES',
+    code: 'es-ES',
     name: 'Spanish (Spain)',
   },
   {
     id: 376,
-    code: 'es_US',
+    code: 'es-US',
     name: 'Spanish (United States)',
   },
   {
     id: 377,
-    code: 'es_UY',
+    code: 'es-UY',
     name: 'Spanish (Uruguay)',
   },
   {
     id: 378,
-    code: 'es_VE',
+    code: 'es-VE',
     name: 'Spanish (Venezuela)',
   },
   {
@@ -1898,12 +1898,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 380,
-    code: 'sw_KE',
+    code: 'sw-KE',
     name: 'Swahili (Kenya)',
   },
   {
     id: 381,
-    code: 'sw_TZ',
+    code: 'sw-TZ',
     name: 'Swahili (Tanzania)',
   },
   {
@@ -1913,12 +1913,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 383,
-    code: 'sv_FI',
+    code: 'sv-FI',
     name: 'Swedish (Finland)',
   },
   {
     id: 384,
-    code: 'sv_SE',
+    code: 'sv-SE',
     name: 'Swedish (Sweden)',
   },
   {
@@ -1928,7 +1928,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 386,
-    code: 'gsw_CH',
+    code: 'gsw-CH',
     name: 'Swiss German (Switzerland)',
   },
   {
@@ -1938,22 +1938,22 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 388,
-    code: 'shi_Latn',
+    code: 'shi-Latn',
     name: 'Tachelhit (Latin)',
   },
   {
     id: 389,
-    code: 'shi_Latn_MA',
+    code: 'shi-Latn-MA',
     name: 'Tachelhit (Latin, Morocco)',
   },
   {
     id: 390,
-    code: 'shi_Tfng',
+    code: 'shi-Tfng',
     name: 'Tachelhit (Tifinagh)',
   },
   {
     id: 391,
-    code: 'shi_Tfng_MA',
+    code: 'shi-Tfng-MA',
     name: 'Tachelhit (Tifinagh, Morocco)',
   },
   {
@@ -1963,7 +1963,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 393,
-    code: 'dav_KE',
+    code: 'dav-KE',
     name: 'Taita (Kenya)',
   },
   {
@@ -1973,12 +1973,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 395,
-    code: 'ta_IN',
+    code: 'ta-IN',
     name: 'Tamil (India)',
   },
   {
     id: 396,
-    code: 'ta_LK',
+    code: 'ta-LK',
     name: 'Tamil (Sri Lanka)',
   },
   {
@@ -1988,7 +1988,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 398,
-    code: 'te_IN',
+    code: 'te-IN',
     name: 'Telugu (India)',
   },
   {
@@ -1998,12 +1998,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 400,
-    code: 'teo_KE',
+    code: 'teo-KE',
     name: 'Teso (Kenya)',
   },
   {
     id: 401,
-    code: 'teo_UG',
+    code: 'teo-UG',
     name: 'Teso (Uganda)',
   },
   {
@@ -2013,7 +2013,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 403,
-    code: 'th_TH',
+    code: 'th-TH',
     name: 'Thai (Thailand)',
   },
   {
@@ -2023,12 +2023,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 405,
-    code: 'bo_CN',
+    code: 'bo-CN',
     name: 'Tibetan (China)',
   },
   {
     id: 406,
-    code: 'bo_IN',
+    code: 'bo-IN',
     name: 'Tibetan (India)',
   },
   {
@@ -2038,12 +2038,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 408,
-    code: 'ti_ER',
+    code: 'ti-ER',
     name: 'Tigrinya (Eritrea)',
   },
   {
     id: 409,
-    code: 'ti_ET',
+    code: 'ti-ET',
     name: 'Tigrinya (Ethiopia)',
   },
   {
@@ -2053,7 +2053,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 411,
-    code: 'to_TO',
+    code: 'to-TO',
     name: 'Tonga (Tonga)',
   },
   {
@@ -2063,7 +2063,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 413,
-    code: 'tr_TR',
+    code: 'tr-TR',
     name: 'Turkish (Turkey)',
   },
   {
@@ -2073,7 +2073,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 415,
-    code: 'uk_UA',
+    code: 'uk-UA',
     name: 'Ukrainian (Ukraine)',
   },
   {
@@ -2083,12 +2083,12 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 417,
-    code: 'ur_IN',
+    code: 'ur-IN',
     name: 'Urdu (India)',
   },
   {
     id: 418,
-    code: 'ur_PK',
+    code: 'ur-PK',
     name: 'Urdu (Pakistan)',
   },
   {
@@ -2098,32 +2098,32 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 420,
-    code: 'uz_Arab',
+    code: 'uz-Arab',
     name: 'Uzbek (Arabic)',
   },
   {
     id: 421,
-    code: 'uz_Arab_AF',
+    code: 'uz-Arab-AF',
     name: 'Uzbek (Arabic, Afghanistan)',
   },
   {
     id: 422,
-    code: 'uz_Cyrl',
+    code: 'uz-Cyrl',
     name: 'Uzbek (Cyrillic)',
   },
   {
     id: 423,
-    code: 'uz_Cyrl_UZ',
+    code: 'uz-Cyrl-UZ',
     name: 'Uzbek (Cyrillic, Uzbekistan)',
   },
   {
     id: 424,
-    code: 'uz_Latn',
+    code: 'uz-Latn',
     name: 'Uzbek (Latin)',
   },
   {
     id: 425,
-    code: 'uz_Latn_UZ',
+    code: 'uz-Latn-UZ',
     name: 'Uzbek (Latin, Uzbekistan)',
   },
   {
@@ -2133,7 +2133,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 427,
-    code: 'vi_VN',
+    code: 'vi-VN',
     name: 'Vietnamese (Vietnam)',
   },
   {
@@ -2143,7 +2143,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 429,
-    code: 'vun_TZ',
+    code: 'vun-TZ',
     name: 'Vunjo (Tanzania)',
   },
   {
@@ -2153,7 +2153,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 431,
-    code: 'cy_GB',
+    code: 'cy-GB',
     name: 'Welsh (United Kingdom)',
   },
   {
@@ -2163,7 +2163,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 433,
-    code: 'yo_NG',
+    code: 'yo-NG',
     name: 'Yoruba (Nigeria)',
   },
   {
@@ -2173,7 +2173,7 @@ const FULL_LOCALES: FullLocale[] = [
   },
   {
     id: 435,
-    code: 'zu_ZA',
+    code: 'zu-ZA',
     name: 'Zulu (South Africa)',
   },
   {

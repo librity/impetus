@@ -11,8 +11,12 @@
   flex-direction: row;
   align-items: center;
 
-  margin-top: 1rem;
-  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.search_icon_wrapper {
+  margin-right: 0.25rem;
 }
 
 .search_form {
@@ -49,17 +53,21 @@
 }
 
 .locale_container {
-  width: 10vw;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
 
-  margin-bottom: 1rem;
-  margin-left: 1rem;
+.locale_filter {
+  width: 15vw;
 
-  opacity: 0%;
+  margin-bottom: 0.5rem;
+
+  display: none;
   transition: 0.3s;
 }
 
-.locale_container:hover {
-  opacity: 100%;
+.locale_container:hover .locale_filter {
+  display: block;
 }
 
 .locale_list {
@@ -69,11 +77,15 @@
 
   margin-bottom: 0.5rem;
 
-  max-height: 20vh;
-  overflow: hidden;
+  max-height: 30vh;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .locale_button {
+  width: 14vw;
+
   margin-top: 0.25rem;
 
   border: none;
@@ -86,10 +98,10 @@
 }
 
 .locale_input {
+  width: 15vw;
+
   padding: 0.5rem;
   padding-left: 1rem;
-
-  width: 10vw;
 
   border: none;
   border-bottom: 2px #ffffff33 solid;

@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import Image from 'next/image'
+import { FiSearch } from 'react-icons/fi'
 
-import searchIcon from '@/public/icons/search_icon.png'
 import { InputChange, FormSubmit } from '@/interfaces/htmlEvents'
 import { buildDuckSearchUrl } from '@/utils/duckduckgo'
 import styles from '@/styles/Left.module.css'
@@ -23,15 +22,8 @@ export const SearchBar = () => {
 
   return (
     <div className={styles.search_container}>
-      <label htmlFor="search_input">
-        <span className={styles.search_icon_wrapper}>
-          <Image
-            src={searchIcon}
-            alt="Search the internet"
-            width={36}
-            height={36}
-          />
-        </span>
+      <label htmlFor="search_input" className={styles.search_icon_wrapper}>
+        <FiSearch size={36} />
       </label>
 
       <form className={styles.search_form} onSubmit={handleSearch}>

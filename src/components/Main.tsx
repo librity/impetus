@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react'
 
 import { buildCssUrl } from '@/utils/css'
 import { ONE_HOUR } from '@/utils/time'
-import { UNSPLASH_URL, fetchRandomLandscape } from '@/api/unsplash'
+import { getRandomUrl, fetchRandomLandscape } from '@/api/unsplash'
 import styles from '@/styles/App.module.css'
 
 export const Main: React.FC<{}> = ({ children, ..._rest }) => {
-  const [bgUrl, setBgUrl] = useState(buildCssUrl(UNSPLASH_URL))
+  const [bgUrl, setBgUrl] = useState(buildCssUrl(getRandomUrl()))
 
   const refreshBackground = async () => {
     const url = await fetchRandomLandscape()

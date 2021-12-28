@@ -66,6 +66,10 @@ button {
   width: 0.75rem;
 }
 
+::-webkit-scrollbar-corner {
+  background: #00000000;
+}
+
 ::-webkit-scrollbar-track {
   background: #e6e6e626;
   border-radius: 10px;
@@ -77,5 +81,5 @@ button {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ddddddcc;
+  background-color: transparent;
 }

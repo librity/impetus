@@ -1,6 +1,5 @@
-import Image from 'next/image'
+import { GoMarkGithub } from 'react-icons/go'
 
-import githubIcon from '@/public/icons/github.svg'
 import styles from '@/styles/Right.module.css'
 
 export const Github = () => {
@@ -12,7 +11,7 @@ export const Github = () => {
       rel="noopener noreferrer"
     >
       <span className={styles.github_container}>
-        <Image src={githubIcon} alt="" width={36} height={36} />
+        <GoMarkGithub size={36} />
       </span>
     </a>
   )

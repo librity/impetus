@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { FiClock } from 'react-icons/fi'
 
 import FULL_LOCALES from '@/data/fullLocales'
 import { InputChange } from '@/interfaces/htmlEvents'
@@ -28,19 +29,26 @@ const LocaleFilter = () => {
 
   return (
     <div className={styles.locale_container}>
-      <div className={styles.locale_list}>
-        {foundLocales &&
-          foundLocales.length > 0 &&
-          foundLocales.map(locale => (
-            <Locale key={locale.id} locale={locale} />
-          ))}
+      <div className={styles.locale_filter}>
+        <div className={styles.locale_list}>
+          {foundLocales &&
+            foundLocales.length > 0 &&
+            foundLocales.map(locale => (
+              <Locale key={locale.id} locale={locale} />
+            ))}
+        </div>
+
+        <input
+          onChange={filterLocales}
+          className={styles.locale_input}
+          id="local_input"
+          placeholder="Select your locale"
+        />
       </div>
 
-      <input
-        onChange={filterLocales}
-        className={styles.locale_input}
-        placeholder="Select your locale"
-      />
+      <label htmlFor="local_input" className={styles.local_icon_wrapper}>
+        <FiClock size={36} />
+      </label>
     </div>
   )
 }

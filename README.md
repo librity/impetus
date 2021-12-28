@@ -4,6 +4,11 @@
   </a>
 </p>
 
+<p align="center"> A bicycle for your mind.
+  <br>
+  <br>
+</p>
+
 <div align="center">
 
 ![Deploy Status](https://img.shields.io/github/deployments/librity/impetus/Production?label=Vercel&logo=vercel&logoColor=white)
@@ -14,10 +19,6 @@
 ![Last commit](https://img.shields.io/github/last-commit/librity/impetus?color=orange)
 
 </div>
-
-<p align="center"> An elegant dashboard for your goals.
-  <br>
-</p>
 
 ---
 
@@ -53,7 +54,7 @@ I'm committed to online privacy and anonymity, and this app will:
 
 <p align="center">
   <a href="https://impetus.vercel.app" target="_blank">
-    <img src=".github/preview.png">
+    <img src=".github/demo.png">
   </a>
 </p>
 
@@ -66,7 +67,7 @@ I'm committed to online privacy and anonymity, and this app will:
 - [x] Source code link
 - [x] Clock
   - [x] Basic clock
-  - [ ] Custom timezone
+  - [x] Custom timezone
 - [x] Greeting
   - [x] Updates with time
 - [x] Landscape background
@@ -190,6 +191,7 @@ This project is [MIT licensed](LICENSE).
 - https://stackoverflow.com/questions/55362152/how-to-open-a-new-tab-in-javascript
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString
 - https://www.w3schools.com/js/js_string_search.asp
+- https://github.com/unsplash/unsplash-source-js
 
 ### ReactJS
 
@@ -246,6 +248,7 @@ This project is [MIT licensed](LICENSE).
 - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
 - https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 - https://www.w3schools.com/howto/howto_css_transition_hover.asp
+- https://stackoverflow.com/questions/35968553/webkit-scrollbar-css-always-a-white-box-in-corner
 
 ### Meta Tags
 

@@ -1,6 +1,6 @@
 import { fetchJson } from '@/api/generic'
 
-import { WeatherAPIRespI } from '@/interfaces/weather'
+import { WeatherAPIResp } from '@/interfaces/weather'
 
 const WEATHER_API_KEY = '64b4a1917a1162ec2a04717a12f24a9a'
 const WEATHER_BASE_URL = 'https://api.openweathermap.org/data/2.5/weather'
@@ -28,7 +28,7 @@ export const fetchWeather = async (weatherUrl: string) => {
   }
 }
 
-const formatWeatherData = (resp: WeatherAPIRespI) => {
+const formatWeatherData = (resp: WeatherAPIResp) => {
   const formattedWeather = {
     iconUrl: buildIconUrl(resp.weather[0].icon),
     iconAlt: resp.weather[0].description,
@@ -43,7 +43,7 @@ const buildIconUrl = (iconId: string) => {
   return `${WEATHER_ICON_BASE_URL}/${iconId}@2x.png`
 }
 
-const buildCurrent = (resp: WeatherAPIRespI) => {
+const buildCurrent = (resp: WeatherAPIResp) => {
   const temp = Math.floor(resp.main.temp)
 
   return `${resp.weather[0].main} / ${temp}°C`

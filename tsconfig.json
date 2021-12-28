@@ -17,9 +17,11 @@
     "baseUrl": "./src",
     "paths": {
       "@/public/*": ["../public/*"],
+
       "@/api/*": ["api/*"],
       "@/components/*": ["components/*"],
       "@/contexts/*": ["contexts/*"],
+      "@/data/*": ["data/*"],
       "@/interfaces/*": ["interfaces/*"],
       "@/pages/*": ["pages/*"],
       "@/styles/*": ["styles/*"],

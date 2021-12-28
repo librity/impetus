@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
 
-import { NAMED_LOCALES } from '@/utils/locales'
+import FULL_LOCALES from '@/data/fullLocales'
 import { InputChange } from '@/interfaces/htmlEvents'
 import styles from '@/styles/Left.module.css'
 
 function LocaleFilter() {
   const [search, setSearch] = useState('')
-  const [foundLocales, setFoundLocales] = useState(NAMED_LOCALES)
+  const [foundLocales, setFoundLocales] = useState(FULL_LOCALES)
 
   const filterLocales: InputChange = e => {
     const keyword = e.target.value
 
     if (keyword !== '') {
-      const results = NAMED_LOCALES.filter(locale => {
+      const results = FULL_LOCALES.filter(locale => {
         const search = keyword.toLowerCase()
         const searchResult = locale.name.toLowerCase().indexOf(search)
 
@@ -24,7 +24,7 @@ function LocaleFilter() {
       return
     }
 
-    setFoundLocales(NAMED_LOCALES)
+    setFoundLocales(FULL_LOCALES)
     setSearch(keyword)
   }
 

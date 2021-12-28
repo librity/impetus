@@ -1,16 +1,16 @@
-interface WeatherIconI {
+interface WeatherIcon {
   id: number
   main: string
   description: string
   icon: string
 }
 
-export interface WeatherAPIRespI {
+export interface WeatherAPIResp {
   coord: {
     lon: number
     lat: number
   }
-  weather: [WeatherIconI]
+  weather: [WeatherIcon]
 
   base: string
   main: {
@@ -44,7 +44,7 @@ export interface WeatherAPIRespI {
   cod: number
 }
 
-export interface FormattedWeatherI {
+export interface FormattedWeather {
   iconUrl: string
   iconAlt: string
   city: string

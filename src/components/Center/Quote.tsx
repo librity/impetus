@@ -2,8 +2,12 @@ import { useEffect, useState } from 'react'
 import BarLoader from 'react-spinners/BarLoader'
 
 import { fetchRandomQuote } from '@/api/quotes'
-import { QuoteI } from '@/interfaces/quote'
 import styles from '@/styles/Center.module.css'
+
+interface QuoteI {
+  content: string
+  author: string
+}
 
 export const Quote = () => {
   const [quote, setQuote] = useState<QuoteI>()

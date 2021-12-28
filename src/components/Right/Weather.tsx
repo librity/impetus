@@ -6,14 +6,14 @@ import styles from '@/styles/Right.module.css'
 
 import { TEN_MINUTES } from '@/utils/time'
 
-import { FormattedWeatherI } from '@/interfaces/weather'
+import { FormattedWeather } from '@/interfaces/weather'
 import { buildDarkskyUrl, buildWeatherUrl, fetchWeather } from '@/api/weather'
 
 export const Weather = () => {
   const [weatherUrl, setWeatherUrl] = useState('')
   const [darkskyUrl, setDarkskyUrl] = useState('')
 
-  const [weather, setWeather] = useState<FormattedWeatherI>()
+  const [weather, setWeather] = useState<FormattedWeather>()
 
   const updateWeather = () => {
     const intervalId = setInterval(() => getWeather(weatherUrl), TEN_MINUTES)

@@ -65,6 +65,8 @@ I'm committed to online privacy and anonymity, and this app will:
   - [x] Disable Vercel analytics (no `vitals` request)
 - [x] Custom scrollbar
 - [x] Source code link
+- [ ] Zen mode
+- [ ] Light mode
 - [x] Clock
   - [x] Basic clock
   - [x] Custom timezone
@@ -72,7 +74,7 @@ I'm committed to online privacy and anonymity, and this app will:
   - [x] Updates with time
 - [x] Landscape background
   - [x] Random landscape from unsplash
-  - [x] Change landscape every hour
+  - [x] Change landscape half hour
 - [x] Tasks
   - [x] Add task
   - [x] Save tasks to local storage
@@ -90,7 +92,7 @@ I'm committed to online privacy and anonymity, and this app will:
   - [ ] Add shortcut
   - [ ] Save shortcuts to local storage
   - [ ] Edit shortcut
-  - [ ] Delete shortcut
+  - [ ] Delete shortcutCSS
 - [ ] Crypto toolbar
   - [ ] Add coins of interest
   - [ ] Show price and change

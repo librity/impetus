@@ -12,8 +12,9 @@ const UNSPLASH_URLS = [
 ]
 
 export const getRandomUrl = () => {
-  const randomIndex = getRandomInt(0, UNSPLASH_URLS.length)
+  const randomIndex = getRandomInt(0, UNSPLASH_URLS.length - 1)
 
+  console.log(UNSPLASH_URLS[randomIndex])
   return UNSPLASH_URLS[randomIndex]
 }
 

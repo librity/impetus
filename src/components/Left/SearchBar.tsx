@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { FiSearch } from 'react-icons/fi'
 
 import { InputChange, FormSubmit } from '@/interfaces/htmlEvents'
-import { buildDuckSearchUrl } from '@/utils/duckduckgo'
+import { buildYandexSearchUrl } from '@/utils/yandex'
 import styles from '@/styles/Left.module.css'
 
 export const SearchBar = () => {
@@ -15,7 +15,7 @@ export const SearchBar = () => {
   const handleSearch: FormSubmit = event => {
     event.preventDefault()
 
-    window.open(buildDuckSearchUrl(search), '_blank')
+    window.open(buildYandexSearchUrl(search), '_blank')
 
     setSearch('')
   }

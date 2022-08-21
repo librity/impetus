@@ -86,7 +86,7 @@ I'm committed to online privacy and anonymity, and this app will:
   - [x] Current weather with icon
   - [ ] Weather forecast on hover
 - [x] Search bar
-  - [x] Search with DuckDuckGo
+  - [x] Search with Yandex
   - [ ] Select search site/engine
 - [ ] Website Shortcuts
   - [ ] Add shortcut
